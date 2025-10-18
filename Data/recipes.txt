@@ -1,0 +1,4777 @@
+===RECIPE===
+Name: Weak Leather Armor
+Yield: 1
+Input: M|Cowhide|3
+Input: M|Coal|1
+Input: M|Iron Ore|3
+
+===RECIPE===
+Name: Strong Leather Armor
+Yield: 1
+Input: M|Cowhide|5
+Input: M|Coal|5
+Input: M|Iron Ore|5
+
+===RECIPE===
+Name: Wooden Armor
+Yield: 1
+Input: M|Oak|15
+Input: M|Steel|3
+Input: M|Coal|10
+Input: M|Gold Ore|3
+
+===RECIPE===
+Name: Bone Armor
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Gold Bar|2
+Input: M|Steel|1
+Input: M|Coal|20
+Input: M|Animal Bones|60
+
+===RECIPE===
+Name: Bronze Armor
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Gold Bar|2
+Input: M|Steel|4
+Input: M|Coal|20
+Input: M|Copper|20
+Input: T|Needle|1
+
+===RECIPE===
+Name: Iron Armor
+Yield: 1
+Input: M|Cowhide|25
+Input: M|Silk|10
+Input: M|Gold Bar|3
+Input: M|Silver Bar|2
+Input: M|Steel|10
+Input: M|Coal|25
+Input: M|Jade|5
+Input: M|Copper|25
+Input: M|Leather Protector|1
+Input: T|Needle|1
+
+===RECIPE===
+Name: Moonlight Armor
+Yield: 1
+Input: M|Cowhide|25
+Input: M|Silk|10
+Input: M|Gold Bar|3
+Input: M|Silver Bar|2
+Input: M|Steel|20
+Input: M|Coal|25
+Input: M|Jade|7
+Input: M|Copper|30
+Input: M|Leather Protector|3
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Metal Armor
+Yield: 1
+Input: S|Iron Armor|1
+Input: M|Cowhide|30
+Input: M|Silk|20
+Input: M|Gold Bar|5
+Input: M|Silver Bar|4
+Input: M|Steel|30
+Input: M|Coal|30
+Input: M|Jade|10
+Input: M|Copper|40
+Input: M|Leather Protector|7
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Taebaek Armor
+Yield: 1
+Input: S|Moonlight Armor|1
+Input: M|Cowhide|30
+Input: M|Silk|20
+Input: M|Gold Bar|5
+Input: M|Silver Bar|4
+Input: M|Steel|50
+Input: M|Coal|30
+Input: M|Jade|10
+Input: M|Copper|40
+Input: M|Leather Protector|10
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: White Plate Armor
+Yield: 1
+Input: S|Metal Armor|1
+Input: M|Cowhide|30
+Input: M|Silk|30
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Steel|70
+Input: M|Coal|35
+Input: M|Jade|30
+Input: M|Copper|45
+Input: M|Leather Protector|12
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Black Carabinieer Armor
+Yield: 1
+Input: S|Taebaek Armor|1
+Input: M|Cowhide|30
+Input: M|Silk|30
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Steel|80
+Input: M|Coal|35
+Input: M|Jade|30
+Input: M|Copper|50
+Input: M|Leather Protector|15
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Frozen Armor
+Yield: 1
+Input: S|White Plate Armor|1
+Input: M|Cowhide|40
+Input: M|Silk|40
+Input: M|Gold Bar|40
+Input: M|Silver Bar|60
+Input: M|Steel|90
+Input: M|Coal|40
+Input: M|Jade|50
+Input: M|Copper|60
+Input: M|Leather Protector|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Flame Armor
+Yield: 1
+Input: S|Black Carabinieer Armor|1
+Input: M|Cowhide|40
+Input: M|Silk|40
+Input: M|Gold Bar|80
+Input: M|Silver Bar|60
+Input: M|Steel|150
+Input: M|Coal|60
+Input: M|Jade|50
+Input: M|Copper|100
+Input: M|Leather Protector|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Dragon Knight Armor
+Yield: 1
+Input: M|Titanium|160
+Input: M|Aramid|60
+Input: M|Mahogany|80
+Input: M|Bronze|30
+Input: M|Lead|50
+Input: M|Spiky Accessory|50
+Input: M|Spiky Silk|80
+Input: M|Black Silk|40
+Input: M|Steel|200
+Input: M|Leather Protector|10
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Abel Knight Armor
+Yield: 1
+Input: M|Titanium|170
+Input: M|Aramid|70
+Input: M|Mahogany|90
+Input: M|Bronze|80
+Input: M|Lead|100
+Input: M|Spiky Accessory|80
+Input: M|Spiky Silk|130
+Input: M|Black Silk|90
+Input: M|Steel|250
+Input: M|Leather Protector|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Dark Knight's Armor
+Yield: 1
+Input: M|Cobalt|300
+Input: M|Dinosaur Leather|120
+Input: M|Titanium|180
+Input: M|Mahogany|100
+Input: M|Bronze|70
+Input: M|Spiky Accessory|100
+Input: M|Lead|80
+Input: M|Spiky Silk|130
+Input: M|Steel|300
+Input: M|Leather Protector|50
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Vampire Armor
+Yield: 1
+Input: M|Black Stone|80
+Input: M|Blessing Stone|25
+Input: M|Steel|120
+Input: M|Coal|120
+Input: M|Gold Bar|50
+Input: M|Silver Bar|50
+Input: M|Cowhide|150
+Input: M|Silk|80
+Input: M|Jade|60
+Input: M|Leather Protector|60
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Cuirassier Armor
+Yield: 1
+Input: M|Blue Thread|80
+Input: M|Ruby|80
+Input: M|Steel|120
+Input: M|Coal|120
+Input: M|Gold Bar|50
+Input: M|Silver Bar|50
+Input: M|Cowhide|150
+Input: M|Silk|80
+Input: M|Jade|60
+Input: M|Leather Protector|60
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Stone Axe
+Yield: 1
+Input: M|Oak|1
+Input: M|Clay-slate Stone|10
+
+===RECIPE===
+Name: Bronze Axe
+Yield: 1
+Input: M|Oak|3
+Input: M|Coal|1
+Input: M|Clay-slate Stone|20
+Input: M|Gold Ore|2
+
+===RECIPE===
+Name: Steel Axe
+Yield: 1
+Input: M|Oak|5
+Input: M|Coal|2
+Input: M|Copper|5
+Input: M|Clay-slate Stone|30
+Input: M|Gold Ore|3
+Input: M|Iron Ore|3
+
+===RECIPE===
+Name: Silver Axe
+Yield: 1
+Input: M|Oak|9
+Input: M|Gold Bar|1
+Input: M|Silver Bar|2
+Input: M|Iron|1
+Input: M|Coal|3
+Input: M|Copper|10
+Input: M|Clay-slate Stone|35
+
+===RECIPE===
+Name: Golden Axe
+Yield: 1
+Input: M|Oak|13
+Input: M|Gold Bar|2
+Input: M|Silver Bar|2
+Input: M|Iron|2
+Input: M|Coal|5
+Input: M|Copper|20
+Input: M|Clay-slate Stone|40
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Morningstar
+Yield: 1
+Input: M|Gold Bar|2
+Input: M|Silver Bar|2
+Input: M|Iron|8
+Input: M|Coal|13
+Input: M|Copper|25
+Input: M|Jade|5
+Input: M|Clay-slate Stone|40
+Input: M|Coral|5
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Battle Axe
+Yield: 1
+Input: M|Charcoal|10
+Input: M|Gold Bar|3
+Input: M|Silver Bar|3
+Input: M|Iron|12
+Input: M|Copper|30
+Input: M|Jade|7
+Input: M|Clay-slate Stone|40
+Input: M|Coral|10
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Golden Hammer
+Yield: 1
+Input: S|Morningstar|1
+Input: M|Gold Bar|4
+Input: M|Silver Bar|4
+Input: M|Iron|16
+Input: M|Coal|21
+Input: M|Copper|35
+Input: M|Jade|9
+Input: M|Clay-slate Stone|45
+Input: M|Coral|15
+Input: M|Polisher|1
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Great Silver Axe
+Yield: 1
+Input: S|Battle Axe|1
+Input: M|Charcoal|20
+Input: M|Gold Bar|5
+Input: M|Silver Bar|5
+Input: M|Iron|20
+Input: M|Copper|40
+Input: M|Jade|10
+Input: M|Clay-slate Stone|47
+Input: M|Coral|20
+Input: M|Polisher|3
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: War Hammer
+Yield: 1
+Input: S|Golden Hammer|1
+Input: M|Gold Bar|6
+Input: M|Silver Bar|6
+Input: M|Iron|24
+Input: M|Coal|29
+Input: M|Copper|45
+Input: M|Jade|13
+Input: M|Clay-slate Stone|50
+Input: M|Coral|25
+Input: M|Polisher|5
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Great Golden Axe
+Yield: 1
+Input: S|Great Silver Axe|1
+Input: M|Charcoal|30
+Input: M|Gold Bar|7
+Input: M|Silver Bar|7
+Input: M|Iron|28
+Input: M|Copper|50
+Input: M|Jade|15
+Input: M|Clay-slate Stone|50
+Input: M|Coral|30
+Input: M|Polisher|7
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Angel's Axe
+Yield: 1
+Input: S|War Hammer|1
+Input: M|Gold Bar|8
+Input: M|Silver Bar|8
+Input: M|Iron|32
+Input: M|Coal|37
+Input: M|Copper|55
+Input: M|Jade|19
+Input: M|Clay-slate Stone|53
+Input: M|Coral|40
+Input: M|Polisher|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Taebaek Axe
+Yield: 1
+Input: S|Great Golden Axe|1
+Input: M|Charcoal|40
+Input: M|Gold Bar|9
+Input: M|Silver Bar|9
+Input: M|Iron|36
+Input: M|Copper|60
+Input: M|Jade|20
+Input: M|Clay-slate Stone|57
+Input: M|Coral|45
+Input: M|Polisher|12
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Iron Soul
+Yield: 1
+Input: S|Angel's Axe|1
+Input: M|Gold Bar|15
+Input: M|Silver Bar|15
+Input: M|Iron|60
+Input: M|Coal|65
+Input: M|Copper|60
+Input: M|Jade|30
+Input: M|Clay-slate Stone|65
+Input: M|Coral|55
+Input: M|Polisher|18
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Spirit Axe
+Yield: 1
+Input: S|Taebaek Axe|1
+Input: M|Charcoal|50
+Input: M|Gold Bar|20
+Input: M|Silver Bar|20
+Input: M|Iron|60
+Input: M|Copper|60
+Input: M|Jade|30
+Input: M|Clay-slate Stone|70
+Input: M|Coral|60
+Input: M|Polisher|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Earthquaker
+Yield: 1
+Input: M|Titanium|180
+Input: M|Aramid|30
+Input: M|Mahogany|90
+Input: M|Bronze|110
+Input: M|Lead|110
+Input: M|Spiky Silk|10
+Input: M|Black Silk|20
+Input: M|Coral|200
+Input: M|Polisher|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Red Moon Axe
+Yield: 1
+Input: M|Titanium|190
+Input: M|Aramid|40
+Input: M|Mahogany|100
+Input: M|Bronze|160
+Input: M|Lead|160
+Input: M|Spiky Silk|60
+Input: M|Black Silk|70
+Input: M|Coral|250
+Input: M|Polisher|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Paladin Golden Axe
+Yield: 1
+Input: M|Titanium|230
+Input: M|Aramid|60
+Input: M|Mahogany|130
+Input: M|Bronze|170
+Input: M|Lead|170
+Input: M|Black Silk|80
+Input: M|Embroidered Thread Bobbin|80
+Input: M|Coral|270
+Input: M|Polisher|35
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Weak Leather Belt
+Yield: 1
+Input: M|Cowhide|5
+Input: M|Steel|1
+
+===RECIPE===
+Name: Strong Leather Belt
+Yield: 1
+Input: M|Cowhide|5
+Input: M|Steel|2
+
+===RECIPE===
+Name: Wooden Belt
+Yield: 1
+Input: M|Oak|25
+Input: M|Steel|4
+Input: M|Coal|10
+
+===RECIPE===
+Name: Bone Belt
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Gold Bar|1
+Input: M|Coal|15
+Input: M|Animal Bones|50
+
+===RECIPE===
+Name: Bronze Belt
+Yield: 1
+Input: S|Wooden Belt|1
+Input: M|Cowhide|15
+Input: M|Gold Bar|2
+Input: M|Silver Bar|2
+Input: M|Steel|10
+Input: M|Coal|15
+Input: M|Jade|3
+Input: M|Copper|15
+Input: M|Bleach|1
+Input: T|Needle|1
+
+===RECIPE===
+Name: Heavy Metal Belt
+Yield: 1
+Input: S|Bone Belt|1
+Input: M|Cowhide|20
+Input: M|Silk|5
+Input: M|Gold Bar|4
+Input: M|Silver Bar|4
+Input: M|Steel|20
+Input: M|Coal|20
+Input: M|Jade|5
+Input: M|Copper|30
+Input: M|Bleach|3
+Input: T|Needle|1
+
+===RECIPE===
+Name: Moonshine Belt
+Yield: 1
+Input: S|Bronze Belt|1
+Input: M|Cowhide|20
+Input: M|Silk|6
+Input: M|Gold Bar|6
+Input: M|Silver Bar|4
+Input: M|Steel|22
+Input: M|Coal|20
+Input: M|Jade|8
+Input: M|Copper|35
+Input: M|Bleach|4
+Input: T|Needle|1
+
+===RECIPE===
+Name: Sturdy Metal Belt
+Yield: 1
+Input: S|Heavy Metal Belt|1
+Input: M|Cowhide|23
+Input: M|Silk|8
+Input: M|Gold Bar|8
+Input: M|Silver Bar|6
+Input: M|Steel|25
+Input: M|Coal|23
+Input: M|Jade|12
+Input: M|Copper|40
+Input: M|Bleach|5
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Taebaek Belt
+Yield: 1
+Input: S|Moonshine Belt|1
+Input: M|Cowhide|25
+Input: M|Silk|10
+Input: M|Gold Bar|10
+Input: M|Silver Bar|8
+Input: M|Steel|30
+Input: M|Coal|25
+Input: M|Jade|15
+Input: M|Copper|45
+Input: M|Bleach|7
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Comet Belt
+Yield: 1
+Input: S|Sturdy Metal Belt|1
+Input: M|Cowhide|30
+Input: M|Silk|20
+Input: M|Gold Bar|25
+Input: M|Silver Bar|25
+Input: M|Steel|50
+Input: M|Coal|50
+Input: M|Jade|30
+Input: M|Copper|60
+Input: M|Bleach|10
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Black Plate Belt
+Yield: 1
+Input: S|Taebaek Belt|1
+Input: M|Cowhide|40
+Input: M|Silk|30
+Input: M|Gold Bar|35
+Input: M|Silver Bar|40
+Input: M|Steel|55
+Input: M|Coal|60
+Input: M|Jade|40
+Input: M|Copper|70
+Input: M|Bleach|11
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Frozen Belt
+Yield: 1
+Input: S|Comet Belt|1
+Input: M|Cowhide|50
+Input: M|Silk|40
+Input: M|Gold Bar|50
+Input: M|Silver Bar|70
+Input: M|Steel|70
+Input: M|Coal|60
+Input: M|Jade|50
+Input: M|Copper|80
+Input: M|Bleach|12
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Flame Belt
+Yield: 1
+Input: S|Black Plate Belt|1
+Input: M|Cowhide|70
+Input: M|Silk|50
+Input: M|Gold Bar|60
+Input: M|Silver Bar|80
+Input: M|Steel|110
+Input: M|Coal|80
+Input: M|Jade|70
+Input: M|Copper|100
+Input: M|Bleach|15
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Dragon Knight Belt
+Yield: 1
+Input: M|Titanium|100
+Input: M|Aramid|100
+Input: M|Mahogany|100
+Input: M|Bronze|20
+Input: M|Lead|20
+Input: M|Spiky Accessory|50
+Input: M|Spiky Silk|80
+Input: M|Black Silk|80
+Input: M|Steel|200
+Input: M|Bleach|10
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Abel Knight Belt
+Yield: 1
+Input: M|Titanium|110
+Input: M|Aramid|110
+Input: M|Mahogany|110
+Input: M|Bronze|70
+Input: M|Lead|70
+Input: M|Spiky Accessory|80
+Input: M|Spiky Silk|130
+Input: M|Black Silk|130
+Input: M|Steel|250
+Input: M|Bleach|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Dark Knight's Belt
+Yield: 1
+Input: M|Cobalt|210
+Input: M|White Gold|140
+Input: M|Aramid|140
+Input: M|Mahogany|100
+Input: M|Lead|70
+Input: M|Spiky Accessory|100
+Input: M|Spiky Silk|100
+Input: M|Black Silk|100
+Input: M|Silver Thread|300
+Input: M|Bleach|50
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Vampire Belt
+Yield: 1
+Input: M|Black Stone|80
+Input: M|Blessing Stone|25
+Input: M|Steel|120
+Input: M|Coal|120
+Input: M|Gold Bar|50
+Input: M|Silver Bar|50
+Input: M|Cowhide|150
+Input: M|Silk|80
+Input: M|Jade|60
+Input: M|Leather Protector|60
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Cuirassier Belt
+Yield: 1
+Input: M|Ruby|80
+Input: M|Blue Thread|80
+Input: M|Coal|100
+Input: M|Cowhide|100
+Input: M|Steel|80
+Input: M|Silk|40
+Input: M|Gold Bar|40
+Input: M|Silver Bar|32
+Input: M|Jade|60
+Input: M|Bleach|28
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Wooden Bow
+Yield: 1
+Input: M|Oak|3
+Input: M|Cowhide|3
+
+===RECIPE===
+Name: Bamboo Bow
+Yield: 1
+Input: M|Bamboo|15
+Input: M|Cowhide|5
+Input: M|Gold Ore|3
+
+===RECIPE===
+Name: Iron Bow
+Yield: 1
+Input: M|Cowhide|8
+Input: M|Gold Bar|1
+Input: M|Iron|2
+
+===RECIPE===
+Name: Steel Bow
+Yield: 1
+Input: M|Cowhide|10
+Input: M|Gold Bar|2
+Input: M|Iron|5
+
+===RECIPE===
+Name: Long Bow
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Gold Bar|3
+Input: M|Iron|7
+Input: M|Copper|5
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Light Crossbow
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Gold Bar|5
+Input: M|Silver Bar|2
+Input: M|Iron|10
+Input: M|Jade|10
+Input: M|Copper|7
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Hunter's Bow
+Yield: 1
+Input: M|Cowhide|20
+Input: M|Gold Bar|5
+Input: M|Silver Bar|7
+Input: M|Iron|11
+Input: M|Jade|12
+Input: M|Copper|10
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Heavy Crossbow
+Yield: 1
+Input: S|Light Crossbow|1
+Input: M|Cowhide|20
+Input: M|Premium Silk|20
+Input: M|Satin|15
+Input: M|Gold Bar|9
+Input: M|Silver Bar|7
+Input: M|Iron|15
+Input: M|Jade|14
+Input: M|Copper|12
+Input: M|Lubricant|1
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Robin Hood
+Yield: 1
+Input: S|Hunter's Bow|1
+Input: M|Cowhide|25
+Input: M|Premium Silk|25
+Input: M|Satin|20
+Input: M|Gold Bar|9
+Input: M|Silver Bar|7
+Input: M|Iron|16
+Input: M|Jade|16
+Input: M|Copper|15
+Input: M|Lubricant|3
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Skill Crossbow
+Yield: 1
+Input: S|Heavy Crossbow|1
+Input: M|Cowhide|25
+Input: M|Premium Silk|30
+Input: M|Satin|25
+Input: M|Gold Bar|12
+Input: M|Silver Bar|9
+Input: M|Iron|21
+Input: M|Jade|18
+Input: M|Copper|20
+Input: M|Lubricant|5
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Elfin Bow
+Yield: 1
+Input: S|Robin Hood|1
+Input: M|Cowhide|30
+Input: M|Premium Silk|35
+Input: M|Satin|30
+Input: M|Gold Bar|12
+Input: M|Silver Bar|15
+Input: M|Iron|22
+Input: M|Jade|20
+Input: M|Copper|25
+Input: M|Lubricant|7
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Composite Bow
+Yield: 1
+Input: S|Skill Crossbow|1
+Input: M|Cowhide|35
+Input: M|Premium Silk|40
+Input: M|Satin|35
+Input: M|Gold Bar|15
+Input: M|Silver Bar|19
+Input: M|Iron|30
+Input: M|Jade|24
+Input: M|Copper|35
+Input: M|Lubricant|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Taebaek Bow
+Yield: 1
+Input: S|Elfin Bow|1
+Input: M|Cowhide|40
+Input: M|Premium Silk|45
+Input: M|Satin|40
+Input: M|Gold Bar|19
+Input: M|Silver Bar|20
+Input: M|Iron|32
+Input: M|Jade|25
+Input: M|Copper|36
+Input: M|Lubricant|12
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Arbalest
+Yield: 1
+Input: S|Composite Bow|1
+Input: M|Cowhide|45
+Input: M|Premium Silk|60
+Input: M|Satin|60
+Input: M|Gold Bar|30
+Input: M|Silver Bar|30
+Input: M|Iron|35
+Input: M|Jade|35
+Input: M|Copper|50
+Input: M|Lubricant|18
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Thunderbolt Bow
+Yield: 1
+Input: S|Taebaek Bow|1
+Input: M|Cowhide|50
+Input: M|Premium Silk|65
+Input: M|Satin|65
+Input: M|Gold Bar|30
+Input: M|Silver Bar|40
+Input: M|Iron|35
+Input: M|Jade|35
+Input: M|Copper|50
+Input: M|Lubricant|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Dragon Claw
+Yield: 1
+Input: M|Titanium|30
+Input: M|Aramid|120
+Input: M|Mahogany|150
+Input: M|Bronze|70
+Input: M|Lead|60
+Input: M|Spiky Silk|60
+Input: M|Black Silk|60
+Input: M|Premium Silk|200
+Input: M|Lubricant|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Nymph's Bow
+Yield: 1
+Input: M|Titanium|40
+Input: M|Aramid|130
+Input: M|Mahogany|160
+Input: M|Bronze|120
+Input: M|Lead|110
+Input: M|Spiky Silk|110
+Input: M|Black Silk|110
+Input: M|Premium Silk|250
+Input: M|Lubricant|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Paladin Flash Bow
+Yield: 1
+Input: M|Titanium|50
+Input: M|Aramid|170
+Input: M|Mahogany|200
+Input: M|Bronze|130
+Input: M|Lead|145
+Input: M|Spiky Silk|145
+Input: M|Black Silk|145
+Input: M|Feather|100
+Input: M|Pine|140
+Input: M|Premium Silk|270
+Input: M|Lubricant|35
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Bamboo Cane
+Yield: 1
+Input: M|Bamboo|10
+Input: M|Sulfur|1
+
+===RECIPE===
+Name: Apprentice Cane
+Yield: 1
+Input: M|Oak|2
+Input: M|Sulfur|5
+Input: M|Gold Ore|1
+Input: M|Silver Ore|1
+Input: M|Iron Ore|3
+
+===RECIPE===
+Name: Wizard Cane
+Yield: 1
+Input: M|Oak|3
+Input: M|Sulfur|10
+Input: M|Gold Ore|4
+Input: M|Silver Ore|4
+Input: M|Iron Ore|4
+
+===RECIPE===
+Name: Fisher's Cane
+Yield: 1
+Input: M|Oak|5
+Input: M|Cowhide|3
+Input: M|Gold Bar|3
+Input: M|Silver Bar|3
+Input: M|Iron|2
+Input: M|Jade|7
+Input: M|Sulfur|15
+
+===RECIPE===
+Name: Master Cane
+Yield: 1
+Input: M|Oak|7
+Input: M|Cowhide|5
+Input: M|Gold Bar|5
+Input: M|Silver Bar|5
+Input: M|Iron|4
+Input: M|Jade|10
+Input: M|Sulfur|20
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Snake Cane
+Yield: 1
+Input: M|Charcoal|3
+Input: M|Satin|30
+Input: M|Cotton|5
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Iron|5
+Input: M|Jade|15
+Input: M|Sulfur|25
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Ivory Cane
+Yield: 1
+Input: M|Charcoal|5
+Input: M|Premium Silk|30
+Input: M|Cotton|10
+Input: M|Gold Bar|15
+Input: M|Silver Bar|12
+Input: M|Iron|7
+Input: M|Jade|15
+Input: M|Sulfur|30
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Wing Cane
+Yield: 1
+Input: S|Snake Cane|1
+Input: M|Charcoal|9
+Input: M|Satin|45
+Input: M|Cotton|15
+Input: M|Gold Bar|17
+Input: M|Silver Bar|17
+Input: M|Iron|10
+Input: M|Jade|20
+Input: M|Sulfur|35
+Input: M|Lubricant|1
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Hermit's Cane
+Yield: 1
+Input: S|Ivory Cane|1
+Input: M|Charcoal|10
+Input: M|Premium Silk|45
+Input: M|Cotton|20
+Input: M|Gold Bar|20
+Input: M|Silver Bar|18
+Input: M|Iron|12
+Input: M|Jade|22
+Input: M|Sulfur|37
+Input: M|Lubricant|3
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Star Cane
+Yield: 1
+Input: S|Wing Cane|1
+Input: M|Charcoal|15
+Input: M|Satin|55
+Input: M|Cotton|25
+Input: M|Gold Bar|23
+Input: M|Silver Bar|23
+Input: M|Iron|15
+Input: M|Jade|25
+Input: M|Sulfur|40
+Input: M|Lubricant|5
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Spirit Cane
+Yield: 1
+Input: S|Hermit's Cane|1
+Input: M|Charcoal|15
+Input: M|Premium Silk|55
+Input: M|Cotton|30
+Input: M|Gold Bar|25
+Input: M|Silver Bar|24
+Input: M|Iron|17
+Input: M|Jade|28
+Input: M|Sulfur|43
+Input: M|Lubricant|7
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Golden Spear Cane
+Yield: 1
+Input: S|Star Cane|1
+Input: M|Charcoal|24
+Input: M|Satin|70
+Input: M|Cotton|40
+Input: M|Gold Bar|35
+Input: M|Silver Bar|33
+Input: M|Iron|30
+Input: M|Jade|40
+Input: M|Sulfur|60
+Input: M|Lubricant|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Taebaek Cane
+Yield: 1
+Input: S|Spirit Cane|1
+Input: M|Charcoal|25
+Input: M|Premium Silk|70
+Input: M|Cotton|45
+Input: M|Gold Bar|35
+Input: M|Silver Bar|35
+Input: M|Iron|30
+Input: M|Jade|45
+Input: M|Sulfur|60
+Input: M|Lubricant|12
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Orchestra Tact
+Yield: 1
+Input: S|Golden Spear Cane|1
+Input: M|Charcoal|30
+Input: M|Satin|80
+Input: M|Cotton|55
+Input: M|Gold Bar|45
+Input: M|Silver Bar|50
+Input: M|Iron|35
+Input: M|Jade|50
+Input: M|Sulfur|70
+Input: M|Lubricant|18
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Fairy Cane
+Yield: 1
+Input: S|Taebaek Cane|1
+Input: M|Charcoal|35
+Input: M|Premium Silk|80
+Input: M|Cotton|60
+Input: M|Gold Bar|50
+Input: M|Silver Bar|50
+Input: M|Iron|35
+Input: M|Jade|55
+Input: M|Sulfur|70
+Input: M|Lubricant|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Heaven's Judgement
+Yield: 1
+Input: M|Titanium|20
+Input: M|Aramid|120
+Input: M|Mahogany|160
+Input: M|Bronze|10
+Input: M|Lead|10
+Input: M|Spiky Silk|120
+Input: M|Black Silk|110
+Input: M|Cotton|200
+Input: M|Lubricant|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Undine Cane
+Yield: 1
+Input: M|Titanium|30
+Input: M|Aramid|130
+Input: M|Mahogany|170
+Input: M|Bronze|60
+Input: M|Lead|60
+Input: M|Spiky Silk|170
+Input: M|Black Silk|160
+Input: M|Cotton|250
+Input: M|Lubricant|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Paladin moonlight Cane
+Yield: 1
+Input: M|Titanium|50
+Input: M|Aramid|160
+Input: M|Mahogany|210
+Input: M|Lead|80
+Input: M|Black Silk|150
+Input: M|Spiky Silk|190
+Input: M|Limestone|110
+Input: M|Clay|130
+Input: M|Cotton|270
+Input: M|Lubricant|35
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Amethyst Cloak[Avatar]
+Yield: 1
+Input: M|Cowhide|6
+Input: M|Thread Bobbin|6
+Input: M|Feather|8
+Input: M|Resin|2
+Input: M|Copper|3
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: School Bag[Avatar]
+Yield: 1
+Input: M|Cowhide|9
+Input: M|Thread Bobbin|9
+Input: M|Feather|12
+Input: M|Resin|4
+Input: M|Copper|6
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Cheering Cloak[Avatar]
+Yield: 1
+Input: M|Cowhide|12
+Input: M|Thread Bobbin|12
+Input: M|Feather|15
+Input: M|Resin|6
+Input: M|Copper|9
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Angel Wings[Avatar]
+Yield: 1
+Input: M|Embroidered Thread Bobbin|11
+Input: M|Blue Thread|16
+Input: M|Feather|18
+Input: M|Resin|8
+Input: M|Copper|12
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Adventurer Cloak[Avatar]
+Yield: 1
+Input: M|Embroidered Thread Bobbin|14
+Input: M|Blue Thread|20
+Input: M|Feather|21
+Input: M|Resin|10
+Input: M|Sulfur|5
+Input: M|Clay|10
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Devil Wings[Avatar]
+Yield: 1
+Input: M|Embroidered Thread Bobbin|17
+Input: M|Blue Thread|24
+Input: M|Feather|24
+Input: M|Resin|12
+Input: M|Sulfur|10
+Input: M|Clay|15
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Goblin King's Cloak[Avatar]
+Yield: 1
+Input: M|Ramie|20
+Input: M|Spiky Silk|15
+Input: M|Blue Thread|24
+Input: M|Resin|14
+Input: M|Sulfur|15
+Input: M|Clay|20
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Frozen Cape[Avatar]
+Yield: 1
+Input: M|Water Stone|15
+Input: M|Spiky Silk|25
+Input: M|Black Silk|15
+Input: M|Resin|18
+Input: M|Blue Stone Piece|8
+Input: M|Snowball|30
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Flame Cape[Avatar]
+Yield: 1
+Input: M|Fire Stone|15
+Input: M|Spiky Silk|30
+Input: M|Black Silk|18
+Input: M|Resin|24
+Input: M|Red Stone Piece|8
+Input: M|Sorcerer's eye|30
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Dragon Knight's Wing[Avatar]
+Yield: 1
+Input: M|Blessing Stone|15
+Input: M|Spiky Silk|35
+Input: M|Black Silk|21
+Input: M|Resin|26
+Input: M|Black Stone|25
+Input: M|Diamond|30
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Abel Knights Cape[Avatar]
+Yield: 1
+Input: M|Blessing Stone|15
+Input: M|Spiky Silk|40
+Input: M|Black Silk|24
+Input: M|Resin|28
+Input: M|Golden Stone Piece|8
+Input: M|Pearl|30
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Vampire Cloak[Avatar]
+Yield: 1
+Input: M|Blessing Stone|15
+Input: M|Spiky Silk|15
+Input: M|Black Silk|15
+Input: M|Resin|24
+Input: M|Black Stone|15
+Input: M|Amethyst|30
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Archangel's Wing[Avatar]
+Yield: 1
+Input: M|Ramie|18
+Input: M|Spiky Silk|20
+Input: M|Blue Thread|27
+Input: M|Resin|16
+Input: M|Sulfur|20
+Input: S|Angel Wings[Avatar]|1
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Satan's Wing[Avatar]
+Yield: 1
+Input: M|Ramie|27
+Input: M|Spiky Silk|32
+Input: M|Blue Thread|17
+Input: M|Resin|22
+Input: M|Sulfur|25
+Input: S|Devil Wings[Avatar]|1
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Dark Knight Cloak[Avatar]
+Yield: 1
+Input: M|Blessing Stone|15
+Input: M|Spiky Silk|50
+Input: M|Black Silk|30
+Input: M|Resin|32
+Input: M|Golden Stone Piece|5
+Input: M|Black Stone|30
+Input: M|Diamond|30
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Traveler Suit[Avatar]
+Yield: 1
+Input: M|Cowhide|5
+Input: M|Feather|6
+Input: M|Animal Fur|6
+Input: M|Bamboo|2
+Input: M|Amber|2
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: School Uniform[Avatar]
+Yield: 1
+Input: M|Cowhide|10
+Input: M|Feather|12
+Input: M|Animal Fur|9
+Input: M|Bamboo|4
+Input: M|Amber|4
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Cheering Suit[Avatar]
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Feather|18
+Input: M|Animal Fur|12
+Input: M|Bamboo|6
+Input: M|Amber|6
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Craftsman Suit[Avatar]
+Yield: 1
+Input: M|Cowhide|20
+Input: M|Feather|24
+Input: M|Animal Fur|15
+Input: M|Bamboo|8
+Input: M|Amber|8
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Adventurer Suit[Avatar]
+Yield: 1
+Input: M|Silk|17
+Input: M|Feather|30
+Input: M|Animal Fur|18
+Input: M|Bamboo|10
+Input: M|Coral|4
+Input: M|Ramie|3
+Input: T|Flat Iron|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Flour
+Yield: 1
+Input: M|Wheat|2
+
+===RECIPE===
+Name: Sesame Oil
+Yield: 2
+Input: M|Sesame Seed|5
+
+===RECIPE===
+Name: Soy Bean Milk
+Yield: 1
+Input: M|Bean|1
+Input: M|Mung Bean|1
+Input: M|Honey|1
+
+===RECIPE===
+Name: Bean Paste
+Yield: 2
+Input: M|Bean|3
+Input: M|Straw|3
+
+===RECIPE===
+Name: Rice Cake
+Yield: 3
+Input: M|Rice|2
+Input: M|Salt|1
+
+===RECIPE===
+Name: Vinegar
+Yield: 1
+Input: M|Rice|2
+Input: M|Bean Paste|1
+
+===RECIPE===
+Name: Soy Sauce
+Yield: 2
+Input: M|Salt|1
+Input: M|Bean Paste|2
+
+===RECIPE===
+Name: Chinese Noodles
+Yield: 2
+Input: M|Mung Bean|2
+Input: M|Potato|1
+Input: M|Sweet Potato|1
+
+===RECIPE===
+Name: Pickled Ginseng
+Yield: 1
+Input: M|Ginseng|4
+
+===RECIPE===
+Name: Spiky Accesory
+Yield: 1
+Input: M|Aquamarine|6
+Input: M|Spiky Silk|6
+
+===RECIPE===
+Name: Ruby Crystal[F]
+Yield: 1
+Input: M|Ruby|5
+Input: M|Lithium|2
+Input: M|Strange Fire Powder|3
+Input: M|crystal additive|5
+
+===RECIPE===
+Name: Topaz Crystal[F]
+Yield: 1
+Input: M|Topaz|5
+Input: M|Lithium|2
+Input: M|Strange Land Powder|3
+Input: M|crystal additive|5
+
+===RECIPE===
+Name: Amethyst Crystal[F]
+Yield: 1
+Input: M|Amethyst|5
+Input: M|Lithium|2
+Input: M|Strange Wind Powder|3
+Input: M|crystal additive|5
+
+===RECIPE===
+Name: Diamond Crystal[F]
+Yield: 1
+Input: M|Diamond|5
+Input: M|Lithium|2
+Input: M|Strange unattributable Powder|3
+Input: M|crystal additive|5
+
+===RECIPE===
+Name: Pearl Crystal[F]
+Yield: 1
+Input: M|Pearl|5
+Input: M|Lithium|2
+Input: M|Strange unattributable Powder|3
+Input: M|crystal additive|5
+
+===RECIPE===
+Name: Sapphire Crystal[F]
+Yield: 1
+Input: M|Sapphire|5
+Input: M|Lithium|2
+Input: M|Strange Water Powder|3
+Input: M|crystal additive|5
+
+===RECIPE===
+Name: Ruby Crystal[E]
+Yield: 1
+Input: M|Ruby|20
+Input: M|Lithium|4
+Input: M|Argon|2
+Input: M|Strange Fire Powder|7
+Input: M|crystal additive|10
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Topaz Crystal[E]
+Yield: 1
+Input: M|Topaz|20
+Input: M|Lithium|4
+Input: M|Argon|2
+Input: M|Strange Land Powder|7
+Input: M|crystal additive|10
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Amethyst Crystal[E]
+Yield: 1
+Input: M|Amethyst|20
+Input: M|Lithium|4
+Input: M|Argon|2
+Input: M|Strange Wind Powder|7
+Input: M|crystal additive|10
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Diamond Crystal[E]
+Yield: 1
+Input: M|Diamond|20
+Input: M|Lithium|4
+Input: M|Argon|2
+Input: M|Strange unattributable Powder|7
+Input: M|crystal additive|10
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Pearl Crystal[E]
+Yield: 1
+Input: M|Pearl|20
+Input: M|Lithium|4
+Input: M|Argon|2
+Input: M|Strange unattributable Powder|7
+Input: M|crystal additive|10
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Sapphire Crystal[E]
+Yield: 1
+Input: M|Sapphire|20
+Input: M|Lithium|4
+Input: M|Argon|2
+Input: M|Strange Water Powder|7
+Input: M|crystal additive|10
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Ruby Crystal[D]
+Yield: 1
+Input: M|Ruby|35
+Input: M|Lithium|5
+Input: M|Argon|3
+Input: M|Selenium|2
+Input: M|Strange Fire Powder|10
+Input: M|crystal additive|15
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Topaz Crystal[D]
+Yield: 1
+Input: M|Topaz|35
+Input: M|Lithium|5
+Input: M|Argon|3
+Input: M|Selenium|2
+Input: M|Strange Land Powder|10
+Input: M|crystal additive|15
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Amethyst Crystal[D]
+Yield: 1
+Input: M|Amethyst|35
+Input: M|Lithium|5
+Input: M|Argon|3
+Input: M|Selenium|2
+Input: M|Strange Wind Powder|10
+Input: M|crystal additive|15
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Diamond Crystal[D]
+Yield: 1
+Input: M|Diamond|35
+Input: M|Lithium|5
+Input: M|Argon|3
+Input: M|Selenium|2
+Input: M|Strange unattributable Powder|10
+Input: M|crystal additive|15
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Pearl Crystal[D]
+Yield: 1
+Input: M|Pearl|35
+Input: M|Lithium|5
+Input: M|Argon|3
+Input: M|Selenium|2
+Input: M|Strange unattributable Powder|10
+Input: M|crystal additive|15
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Sapphire Crystal[D]
+Yield: 1
+Input: M|Sapphire|35
+Input: M|Lithium|5
+Input: M|Argon|3
+Input: M|Selenium|2
+Input: M|Strange Water Powder|10
+Input: M|crystal additive|15
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Ruby Crystal[C]
+Yield: 1
+Input: M|Ruby|55
+Input: M|Argon|4
+Input: M|Selenium|3
+Input: M|Rubidium|2
+Input: M|Mysterical Fire Powder|5
+Input: M|crystal additive|20
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Topaz Crystal[C]
+Yield: 1
+Input: M|Topaz|55
+Input: M|Argon|4
+Input: M|Selenium|3
+Input: M|Rubidium|2
+Input: M|Mysterical Land Powder|5
+Input: M|crystal additive|20
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Amethyst Crystal[C]
+Yield: 1
+Input: M|Amethyst|55
+Input: M|Argon|4
+Input: M|Selenium|3
+Input: M|Rubidium|2
+Input: M|Mysterical Wind Powder|5
+Input: M|crystal additive|20
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Diamond Crystal[C]
+Yield: 1
+Input: M|Diamond|55
+Input: M|Argon|4
+Input: M|Selenium|3
+Input: M|Rubidium|2
+Input: M|Mysterical unattributable Powder|5
+Input: M|crystal additive|20
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Pearl Crystal[C]
+Yield: 1
+Input: M|Pearl|55
+Input: M|Argon|4
+Input: M|Selenium|3
+Input: M|Rubidium|2
+Input: M|Mysterical unattributable Powder|5
+Input: M|crystal additive|20
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Sapphire Crystal[C]
+Yield: 1
+Input: M|Sapphire|55
+Input: M|Argon|5
+Input: M|Selenium|4
+Input: M|Rubidium|2
+Input: M|Mysterical Water Powder|5
+Input: M|crystal additive|20
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Ruby Crystal[B]
+Yield: 1
+Input: M|Ruby|75
+Input: M|Argon|5
+Input: M|Selenium|4
+Input: M|Rubidium|2
+Input: M|Mysterical Fire Powder|7
+Input: M|crystal additive|25
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Topaz Crystal[B]
+Yield: 1
+Input: M|Topaz|75
+Input: M|Argon|5
+Input: M|Selenium|4
+Input: M|Rubidium|2
+Input: M|Mysterical Land Powder|7
+Input: M|crystal additive|25
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Amethyst Crystal[B]
+Yield: 1
+Input: M|Amethyst|75
+Input: M|Argon|5
+Input: M|Selenium|4
+Input: M|Rubidium|2
+Input: M|Mysterical Wind Powder|7
+Input: M|crystal additive|25
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Diamond Crystal[B]
+Yield: 1
+Input: M|Diamond|75
+Input: M|Argon|5
+Input: M|Selenium|4
+Input: M|Rubidium|2
+Input: M|Mysterical unattributable Powder|7
+Input: M|crystal additive|25
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Pearl Crystal[B]
+Yield: 1
+Input: M|Pearl|75
+Input: M|Argon|5
+Input: M|Selenium|4
+Input: M|Rubidium|2
+Input: M|Mysterical unattributable Powder|7
+Input: M|crystal additive|25
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Sapphire Crystal[B]
+Yield: 1
+Input: M|Sapphire|75
+Input: M|Argon|5
+Input: M|Selenium|4
+Input: M|Rubidium|2
+Input: M|Mysterical Water Powder|7
+Input: M|crystal additive|25
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Ruby Crystal[A]
+Yield: 1
+Input: M|Ruby|100
+Input: M|Selenium|5
+Input: M|Rubidium|4
+Input: M|Strontium|2
+Input: M|Mysterical Fire Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Topaz Crystal[A]
+Yield: 1
+Input: M|Topaz|100
+Input: M|Selenium|5
+Input: M|Rubidium|4
+Input: M|Strontium|2
+Input: M|Mysterical Land Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Amethyst Crystal[A]
+Yield: 1
+Input: M|Amethyst|100
+Input: M|Selenium|5
+Input: M|Rubidium|4
+Input: M|Strontium|2
+Input: M|Mysterical Wind Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Diamond Crystal[A]
+Yield: 1
+Input: M|Diamond|100
+Input: M|Selenium|5
+Input: M|Rubidium|4
+Input: M|Strontium|2
+Input: M|Mysterical unattributable Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Pearl Crystal[A]
+Yield: 1
+Input: M|Pearl|100
+Input: M|Selenium|5
+Input: M|Rubidium|4
+Input: M|Strontium|2
+Input: M|Mysterical unattributable Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Sapphire Crystal[A]
+Yield: 1
+Input: M|Sapphire|100
+Input: M|Selenium|5
+Input: M|Rubidium|4
+Input: M|Strontium|2
+Input: M|Mysterical Water Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Ruby Crystal[S1]
+Yield: 1
+Input: M|Ruby|125
+Input: M|Rubidium|5
+Input: M|Strontium|3
+Input: M|Cadium|2
+Input: M|Illusionary Fire Powder|5
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Topaz Crystal[S1]
+Yield: 1
+Input: M|Topaz|125
+Input: M|Rubidium|5
+Input: M|Strontium|3
+Input: M|Cadium|2
+Input: M|Illusionary Land Powder|5
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Amethyst Crystal[S1]
+Yield: 1
+Input: M|Amethyst|125
+Input: M|Rubidium|5
+Input: M|Strontium|3
+Input: M|Cadium|2
+Input: M|Illusionary Wind Powder|5
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Diamond Crystal[S1]
+Yield: 1
+Input: M|Diamond|125
+Input: M|Rubidium|5
+Input: M|Strontium|3
+Input: M|Cadium|2
+Input: M|Illusionary unattributable Powder|5
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Pearl Crystal[S1]
+Yield: 1
+Input: M|Pearl|125
+Input: M|Rubidium|5
+Input: M|Strontium|3
+Input: M|Cadium|2
+Input: M|Illusionary unattributable Powder|5
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Sapphire Crystal[S1]
+Yield: 1
+Input: M|Sapphire|125
+Input: M|Rubidium|5
+Input: M|Strontium|3
+Input: M|Cadium|2
+Input: M|Illusionary Water Powder|5
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Ruby Crystal[S2]
+Yield: 1
+Input: M|Ruby|150
+Input: M|Strontium|4
+Input: M|Cadium|3
+Input: M|Fradium|2
+Input: M|Illusionary Fire Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Topaz Crystal[S2]
+Yield: 1
+Input: M|Topaz|150
+Input: M|Strontium|4
+Input: M|Cadium|3
+Input: M|Fradium|2
+Input: M|Illusionary Land Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Amethyst Crystal[S2]
+Yield: 1
+Input: M|Amethyst|150
+Input: M|Strontium|4
+Input: M|Cadium|3
+Input: M|Fradium|2
+Input: M|Illusionary Wind Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Diamond Crystal[S2]
+Yield: 1
+Input: M|Diamond|150
+Input: M|Strontium|4
+Input: M|Cadium|3
+Input: M|Fradium|2
+Input: M|Illusionary unattributable Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Pearl Crystal[S2]
+Yield: 1
+Input: M|Pearl|150
+Input: M|Strontium|4
+Input: M|Cadium|3
+Input: M|Fradium|2
+Input: M|Illusionary unattributable Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Sapphire Crystal[S2]
+Yield: 1
+Input: M|Sapphire|150
+Input: M|Strontium|4
+Input: M|Cadium|3
+Input: M|Fradium|2
+Input: M|Illusionary Water Powder|10
+Input: M|crystal additive|30
+Input: T|Saw|1
+Input: T|Composition Tool|1
+
+===RECIPE===
+Name: Fishing Rod
+Yield: 1
+Input: M|Bamboo|10
+Input: M|Iron Ore|3
+Input: M|Animal Bones|3
+
+===RECIPE===
+Name: Fisherman's Rod
+Yield: 1
+Input: M|Bamboo|30
+Input: M|Topaz|10
+Input: M|Polisher|1
+Input: M|Iron|2
+Input: M|Animal Bones|10
+Input: M|Aquamarine|10
+
+===RECIPE===
+Name: Half Moon Dumpling
+Yield: 5
+Input: M|Flour|1
+Input: M|Sesame Oil|1
+Input: M|Honey|2
+
+===RECIPE===
+Name: Skewers
+Yield: 5
+Input: M|Beef|2
+Input: M|Onion|1
+Input: M|Shitake Mushroom|2
+
+===RECIPE===
+Name: Rice Ball
+Yield: 5
+Input: M|Rice|2
+Input: M|Salt|1
+Input: M|Sesame Seed|1
+
+===RECIPE===
+Name: Bread
+Yield: 3
+Input: M|Flour|3
+Input: M|Salt|1
+
+===RECIPE===
+Name: Meat Dumpling
+Yield: 3
+Input: M|Flour|3
+Input: M|Salt|1
+Input: M|Pork|5
+
+===RECIPE===
+Name: Moon Cake
+Yield: 3
+Input: M|Flour|3
+Input: M|Sweet Potato|1
+Input: M|Sesame Oil|1
+Input: M|Honey|2
+
+===RECIPE===
+Name: Sausage
+Yield: 3
+Input: M|Pork|3
+Input: M|Salt|1
+
+===RECIPE===
+Name: Rice Cake Soup
+Yield: 5
+Input: M|Rice Cake|1
+Input: M|Beef|6
+Input: M|Salt|1
+
+===RECIPE===
+Name: Beef Soup
+Yield: 4
+Input: M|Rice|1
+Input: M|Radish|1
+Input: M|Beef|2
+Input: M|Garlic|2
+Input: M|Shitake Mushroom|2
+
+===RECIPE===
+Name: Abalone Congee
+Yield: 3
+Input: M|Rice|1
+Input: M|Abalone|5
+Input: M|Sea Slug|5
+Input: M|Garlic|2
+Input: M|Sesame Seed|1
+Input: M|Salt|1
+Input: T|Pottery|1
+
+===RECIPE===
+Name: Japanese Dumpling
+Yield: 8
+Input: M|Flour|1
+Input: M|Pork|5
+Input: M|Carrot|1
+Input: M|Cucumber|1
+Input: M|Onion|2
+Input: M|Chinese Noodles|1
+Input: T|Pottery|1
+
+===RECIPE===
+Name: Beef Rib
+Yield: 5
+Input: M|Beef|6
+Input: M|Soy Sauce|1
+Input: M|Garlic|5
+Input: M|Carrot|3
+Input: M|Honey|2
+Input: M|Onion|2
+Input: M|Radish|1
+Input: T|Plate|1
+
+===RECIPE===
+Name: Seafood Hotpot
+Yield: 5
+Input: M|Parsley|3
+Input: M|Radish|1
+Input: M|Sea Slug|3
+Input: M|Abalone|3
+Input: M|Soy Sauce|2
+Input: M|Octopus|3
+Input: T|Pottery|1
+
+===RECIPE===
+Name: Starch Noodle
+Yield: 4
+Input: M|Pork|5
+Input: M|Chinese Noodles|1
+Input: M|Shitake Mushroom|2
+Input: M|Salt|1
+Input: M|Cucumber|1
+Input: T|Plate|1
+
+===RECIPE===
+Name: Shabu Shabu
+Yield: 5
+Input: M|Beef|6
+Input: M|Parsley|2
+Input: M|Sea Slug|2
+Input: M|Abalone|2
+Input: M|Soy Sauce|1
+Input: T|Brass Crafting Dish|1
+
+===RECIPE===
+Name: Chicken Soup
+Yield: 4
+Input: M|Chicken|3
+Input: M|Garlic|2
+Input: M|Rice|1
+Input: M|Sesame Seed|1
+Input: M|Salt|1
+Input: T|Pottery|1
+
+===RECIPE===
+Name: Crucian Carp Spicy Soup
+Yield: 4
+Input: M|Crucian Carp|4
+Input: M|Potato|2
+Input: M|Radish|1
+Input: M|Onion|2
+Input: M|Salt|1
+Input: T|Iron Pot|1
+
+===RECIPE===
+Name: Catfish Spicy Soup
+Yield: 4
+Input: M|Catfish|4
+Input: M|Potato|2
+Input: M|Radish|1
+Input: M|Onion|2
+Input: M|Salt|1
+Input: M|Parsley|2
+Input: T|Iron Pot|1
+
+===RECIPE===
+Name: Carp Soup
+Yield: 4
+Input: M|Carp|4
+Input: M|Parsley|2
+Input: M|Onion|2
+Input: M|Potato|2
+Input: M|Radish|1
+Input: M|Shitake Mushroom|2
+Input: M|Salt|1
+Input: T|Iron Pot|1
+
+===RECIPE===
+Name: Pancake
+Yield: 4
+Input: M|Prawn|2
+Input: M|Potato|5
+Input: M|Flour|1
+Input: M|Sesame Oil|1
+Input: M|Carrot|1
+Input: M|Salt|1
+Input: T|Plate|1
+
+===RECIPE===
+Name: Eel BBQ
+Yield: 4
+Input: M|Eel|2
+Input: M|Charcoal|1
+Input: M|Sesame Oil|1
+Input: M|Soy Sauce|1
+Input: M|Garlic|2
+Input: M|Onion|2
+Input: T|Plate|1
+
+===RECIPE===
+Name: Hard Boiled Mackerel
+Yield: 4
+Input: M|Mackerel|2
+Input: M|Soy Sauce|1
+Input: M|Garlic|3
+Input: M|Onion|3
+Input: M|Radish|1
+Input: M|Sesame Oil|1
+Input: T|Plate|1
+
+===RECIPE===
+Name: Feed A
+Yield: 1
+Input: M|Rice|1
+Input: M|Shitake Mushroom|1
+Input: M|Sweet Potato|1
+Input: M|Carrot|1
+Input: M|Sesame Seed|1
+Input: M|Pork|1
+Input: M|Salt|1
+Input: M|Crucian Carp|1
+Input: M|Octopus|1
+Input: M|Mackerel|1
+Input: T|Iron Pot|1
+
+===RECIPE===
+Name: Feed B
+Yield: 1
+Input: M|Radish|1
+Input: M|Mung Bean|1
+Input: M|Onion|1
+Input: M|Garlic|1
+Input: M|Wheat|1
+Input: M|Beef|1
+Input: M|Sea Slug|1
+Input: M|Catfish|1
+Input: M|Prawn|1
+Input: T|Iron Pot|1
+
+===RECIPE===
+Name: Feed C
+Yield: 1
+Input: M|Parsley|1
+Input: M|Potato|1
+Input: M|Cucumber|1
+Input: M|Bean|1
+Input: M|Chicken|1
+Input: M|Honey|1
+Input: M|Abalone|1
+Input: M|Carp|1
+Input: M|Eel|1
+Input: T|Iron Pot|1
+
+===RECIPE===
+Name: Easy Feed
+Yield: 2
+Input: M|Feed A|3
+Input: M|Feed B|3
+Input: M|Feed C|3
+Input: T|Grinding Stone|1
+Input: T|Mortar|1
+
+===RECIPE===
+Name: Rifle
+Yield: 1
+Input: M|Oak|5
+Input: M|Cowhide|3
+
+===RECIPE===
+Name: Stylish Rifle
+Yield: 1
+Input: M|Oak|7
+Input: M|Coal|5
+Input: M|Gold Ore|4
+Input: M|Silver Ore|4
+Input: M|Iron Ore|4
+
+===RECIPE===
+Name: Warrior's Gun
+Yield: 1
+Input: M|Oak|9
+Input: M|Gold Bar|2
+Input: M|Silver Bar|2
+Input: M|Iron|3
+Input: M|Coal|7
+
+===RECIPE===
+Name: Meteorite Gun
+Yield: 1
+Input: M|Oak|12
+Input: M|Gold Bar|3
+Input: M|Silver Bar|3
+Input: M|Iron|5
+Input: M|Coal|9
+
+===RECIPE===
+Name: Thunderbolt Gun
+Yield: 1
+Input: M|Oak|14
+Input: M|Gold Bar|4
+Input: M|Silver Bar|4
+Input: M|Iron|7
+Input: M|Coal|15
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Musketeer's Gun
+Yield: 1
+Input: M|Charcoal|5
+Input: M|Silk|5
+Input: M|Gold Bar|20
+Input: M|Iron|8
+Input: M|Coal|15
+Input: M|Copper|10
+Input: M|Coal|6
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Dragon Shotgun
+Yield: 1
+Input: M|Charcoal|10
+Input: M|Silk|10
+Input: M|Silver Bar|20
+Input: M|Iron|9
+Input: M|Coal|19
+Input: M|Jade|10
+Input: M|Copper|15
+Input: M|Sulfur|12
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Grenade Launcher
+Yield: 1
+Input: S|Musketeer's Gun|1
+Input: M|Charcoal|15
+Input: M|Silk|15
+Input: M|Gold Bar|30
+Input: M|Iron|10
+Input: M|Coal|20
+Input: M|Jade|10
+Input: M|Copper|20
+Input: M|Sulfur|20
+Input: M|Lubricant|1
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Earthquake Launcher
+Yield: 1
+Input: S|Dragon Shotgun|1
+Input: M|Charcoal|19
+Input: M|Silk|15
+Input: M|Silver Bar|30
+Input: M|Iron|11
+Input: M|Coal|24
+Input: M|Jade|20
+Input: M|Copper|25
+Input: M|Sulfur|26
+Input: M|Lubricant|3
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Burst Shotgun
+Yield: 1
+Input: S|Grenade Launcher|1
+Input: M|Charcoal|25
+Input: M|Silk|25
+Input: M|Gold Bar|45
+Input: M|Iron|12
+Input: M|Coal|25
+Input: M|Jade|30
+Input: M|Copper|30
+Input: M|Sulfur|30
+Input: M|Lubricant|5
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Dragon Rifle
+Yield: 1
+Input: S|Earthquake Launcher|1
+Input: M|Charcoal|35
+Input: M|Silk|35
+Input: M|Silver Bar|45
+Input: M|Iron|13
+Input: M|Coal|29
+Input: M|Jade|40
+Input: M|Copper|35
+Input: M|Sulfur|38
+Input: M|Lubricant|7
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Sniper's Rifle
+Yield: 1
+Input: S|Burst Shotgun|1
+Input: M|Charcoal|35
+Input: M|Silk|35
+Input: M|Gold Bar|55
+Input: M|Iron|14
+Input: M|Coal|30
+Input: M|Jade|40
+Input: M|Copper|40
+Input: M|Sulfur|45
+Input: M|Lubricant|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Taebaek Cannon
+Yield: 1
+Input: S|Dragon Rifle|1
+Input: M|Charcoal|45
+Input: M|Silk|45
+Input: M|Silver Bar|60
+Input: M|Iron|30
+Input: M|Coal|34
+Input: M|Jade|50
+Input: M|Copper|45
+Input: M|Sulfur|49
+Input: M|Lubricant|12
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Hellfire
+Yield: 1
+Input: S|Sniper's Rifle|1
+Input: M|Charcoal|45
+Input: M|Silk|50
+Input: M|Gold Bar|60
+Input: M|Iron|40
+Input: M|Coal|50
+Input: M|Jade|60
+Input: M|Copper|50
+Input: M|Sulfur|70
+Input: M|Lubricant|18
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Heavy Wind Gun
+Yield: 1
+Input: S|Taebaek Cannon|1
+Input: M|Charcoal|50
+Input: M|Silk|50
+Input: M|Silver Bar|70
+Input: M|Iron|50
+Input: M|Coal|55
+Input: M|Jade|70
+Input: M|Copper|55
+Input: M|Sulfur|70
+Input: M|Lubricant|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Desperado
+Yield: 1
+Input: M|Titanium|130
+Input: M|Aramid|150
+Input: M|Mahogany|20
+Input: M|Bronze|60
+Input: M|Lead|80
+Input: M|Spiky Silk|50
+Input: M|Black Silk|60
+Input: M|Copper|200
+Input: M|Lubricant|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Heart Gun
+Yield: 1
+Input: M|Titanium|140
+Input: M|Aramid|160
+Input: M|Mahogany|30
+Input: M|Bronze|110
+Input: M|Lead|130
+Input: M|Spiky Silk|100
+Input: M|Black Silk|110
+Input: M|Copper|250
+Input: M|Lubricant|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Paladin Golden Scope Gun
+Yield: 1
+Input: M|Titanium|200
+Input: M|Aramid|60
+Input: M|Mahogany|160
+Input: M|Bronze|140
+Input: M|Lead|160
+Input: M|Spiky Silk|120
+Input: M|Sulfur|140
+Input: M|Brass|100
+Input: M|Coal|270
+Input: M|Lubricant|35
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Gimlet|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Traveler Hat[Avatar]
+Yield: 1
+Input: M|Thread Bobbin|5
+Input: M|Feather|6
+Input: M|Animal Fur|6
+Input: M|Bamboo|2
+Input: M|Coal|2
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: School Hat[Avatar]
+Yield: 1
+Input: M|Thread Bobbin|10
+Input: M|Feather|12
+Input: M|Animal Fur|9
+Input: M|Bamboo|4
+Input: M|Coal|4
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Cheering Hat[Avatar]
+Yield: 1
+Input: M|Thread Bobbin|15
+Input: M|Feather|18
+Input: M|Animal Fur|12
+Input: M|Bamboo|6
+Input: M|Coal|6
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Craftsman Hat[Avatar]
+Yield: 1
+Input: M|Thread Bobbin|20
+Input: M|Feather|24
+Input: M|Animal Fur|15
+Input: M|Bamboo|8
+Input: M|Coal|8
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Adventurer Hat[Avatar]
+Yield: 1
+Input: M|Cotton|10
+Input: M|Feather|30
+Input: M|Animal Fur|18
+Input: M|Bamboo|10
+Input: M|Jade|4
+Input: M|Ramie|3
+Input: T|Gimlet|1
+Input: T|Cutting Tool|1
+
+===RECIPE===
+Name: Weak Leather Helmet
+Yield: 1
+Input: M|Cowhide|3
+Input: M|Iron Ore|2
+
+===RECIPE===
+Name: Strong Leather Helmet
+Yield: 1
+Input: M|Cowhide|5
+Input: M|Iron Ore|4
+
+===RECIPE===
+Name: Wooden Helmet
+Yield: 1
+Input: M|Oak|15
+Input: M|Steel|2
+Input: M|Coal|10
+Input: M|Gold Ore|3
+
+===RECIPE===
+Name: Bone Helmet
+Yield: 1
+Input: M|Cowhide|7
+Input: M|Gold Bar|2
+Input: M|Coal|20
+Input: M|Animal Bones|50
+
+===RECIPE===
+Name: Bronze Helmet
+Yield: 1
+Input: M|Cowhide|10
+Input: M|Silk|5
+Input: M|Gold Bar|4
+Input: M|Steel|5
+Input: M|Coal|20
+Input: M|Copper|20
+Input: T|Needle|1
+
+===RECIPE===
+Name: Iron Helmet
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Silk|10
+Input: M|Gold Bar|4
+Input: M|Silver Bar|1
+Input: M|Steel|8
+Input: M|Coal|20
+Input: M|Copper|5
+Input: M|Leather Protector|1
+Input: T|Needle|1
+
+===RECIPE===
+Name: Moonlight Helmet
+Yield: 1
+Input: M|Cowhide|15
+Input: M|Silk|10
+Input: M|Gold Bar|5
+Input: M|Silver Bar|3
+Input: M|Steel|15
+Input: M|Coal|20
+Input: M|Copper|10
+Input: M|Leather Protector|3
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Metal Helmet
+Yield: 1
+Input: S|Iron Helmet|1
+Input: M|Cowhide|20
+Input: M|Silk|15
+Input: M|Gold Bar|6
+Input: M|Silver Bar|4
+Input: M|Steel|25
+Input: M|Coal|30
+Input: M|Jade|10
+Input: M|Copper|15
+Input: M|Leather Protector|7
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Taebaek Helmet
+Yield: 1
+Input: S|Moonlight Helmet|1
+Input: M|Cowhide|20
+Input: M|Silk|15
+Input: M|Gold Bar|7
+Input: M|Silver Bar|5
+Input: M|Steel|40
+Input: M|Coal|30
+Input: M|Jade|10
+Input: M|Copper|20
+Input: M|Leather Protector|10
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: White Plate Helm
+Yield: 1
+Input: S|Metal Helmet|1
+Input: M|Cowhide|30
+Input: M|Silk|30
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Steel|70
+Input: M|Coal|35
+Input: M|Jade|30
+Input: M|Copper|30
+Input: M|Leather Protector|12
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Black Head Guard
+Yield: 1
+Input: S|Taebaek Helmet|1
+Input: M|Cowhide|30
+Input: M|Silk|30
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Steel|80
+Input: M|Coal|35
+Input: M|Jade|40
+Input: M|Copper|40
+Input: M|Leather Protector|15
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Frozen Helmet
+Yield: 1
+Input: S|White Plate Helm|1
+Input: M|Cowhide|35
+Input: M|Silk|35
+Input: M|Gold Bar|30
+Input: M|Silver Bar|60
+Input: M|Steel|90
+Input: M|Coal|60
+Input: M|Jade|50
+Input: M|Copper|40
+Input: M|Leather Protector|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Flame Helmet
+Yield: 1
+Input: S|Black Head Guard|1
+Input: M|Cowhide|35
+Input: M|Silk|35
+Input: M|Gold Bar|40
+Input: M|Silver Bar|60
+Input: M|Steel|130
+Input: M|Coal|70
+Input: M|Jade|50
+Input: M|Copper|90
+Input: M|Leather Protector|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Dragon Knight Helmet
+Yield: 1
+Input: M|Titanium|120
+Input: M|Aramid|80
+Input: M|Mahogany|100
+Input: M|Bronze|50
+Input: M|Lead|30
+Input: M|Spiky Accessory|50
+Input: M|Spiky Silk|40
+Input: M|Black Silk|80
+Input: M|Steel|200
+Input: M|Leather Protector|10
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Abel Knight Helmet
+Yield: 1
+Input: M|Titanium|130
+Input: M|Aramid|90
+Input: M|Mahogany|110
+Input: M|Bronze|100
+Input: M|Lead|80
+Input: M|Spiky Accessory|80
+Input: M|Spiky Silk|90
+Input: M|Black Silk|130
+Input: M|Steel|250
+Input: M|Leather Protector|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Vampire Helmet
+Yield: 1
+Input: M|Black Stone|80
+Input: M|Blessing Stone|25
+Input: M|Steel|120
+Input: M|Coal|120
+Input: M|Gold Bar|50
+Input: M|Silver Bar|50
+Input: M|Cowhide|150
+Input: M|Silk|80
+Input: M|Jade|60
+Input: M|Leather Protector|60
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Cuirassier Helmet
+Yield: 1
+Input: M|Blue Thread|80
+Input: M|Ruby|80
+Input: M|Steel|120
+Input: M|Coal|120
+Input: M|Gold Bar|50
+Input: M|Silver Bar|50
+Input: M|Cowhide|150
+Input: M|Silk|80
+Input: M|Jade|60
+Input: M|Leather Protector|60
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Hammer
+Yield: 1
+Input: M|Iron|6
+Input: M|Oak|20
+Input: M|Coal|6
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Anvil
+Yield: 1
+Input: M|Iron|10
+Input: M|Coal|10
+
+===RECIPE===
+Name: Saw
+Yield: 1
+Input: M|Iron|4
+Input: M|Oak|20
+Input: M|Coal|6
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Scissor
+Yield: 1
+Input: M|Iron|6
+Input: M|Oak|6
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Needle
+Yield: 1
+Input: M|Iron|2
+Input: M|Charcoal|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Gimlet
+Yield: 1
+Input: M|Iron|2
+Input: M|Charcoal|10
+Input: M|Oak|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Flat Iron
+Yield: 1
+Input: M|Iron|6
+Input: M|Oak|20
+Input: M|Coal|6
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Iron Pot
+Yield: 1
+Input: M|Iron|10
+Input: M|Coal|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Sawdust
+Yield: 1
+Input: M|Iron|10
+Input: M|Oak|40
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Sickle
+Yield: 1
+Input: M|Iron|5
+Input: M|Oak|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Hoe
+Yield: 1
+Input: M|Iron|5
+Input: M|Oak|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Composition Tool
+Yield: 1
+Input: M|Iron Ore|10
+Input: M|Coal|10
+Input: M|Charcoal|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Cutting Tool
+Yield: 1
+Input: M|Gold Bar|30
+Input: M|Premium Silk|80
+Input: M|Lead|30
+Input: M|Oak|60
+
+===RECIPE===
+Name: Craft Shelf
+Yield: 1
+Input: M|Diamond|30
+Input: M|Ruby|30
+Input: M|Pine|80
+Input: M|Premium Silk|60
+
+===RECIPE===
+Name: Weak HP Potion
+Yield: 5
+Input: M|Horn|1
+Input: M|Bean Root|1
+Input: M|Love Vine|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Mediocre HP Potion
+Yield: 4
+Input: M|Adlay Seed|2
+Input: M|Orange Peel|1
+Input: M|Walnut Root|1
+Input: M|Okara|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Average HP Potion
+Yield: 4
+Input: M|Ginseng|1
+Input: M|Bean Root|1
+Input: M|Walnut Root|1
+Input: M|Love Vine|4
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Strong HP Potion
+Yield: 4
+Input: M|Horn|2
+Input: M|Bean Root|1
+Input: M|Walnut Root|1
+Input: M|Madder Seed|4
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Super HP Potion
+Yield: 4
+Input: M|Ginseng|2
+Input: M|Madder Seed|2
+Input: M|Adlay Seed|1
+Input: M|Mushroom|1
+Input: M|Bean Root|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Weak MP Potion
+Yield: 4
+Input: M|Ginseng|2
+Input: M|Walnut Root|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Average MP Potion
+Yield: 3
+Input: M|Pickled Ginseng|1
+Input: M|Adlay Seed|1
+Input: M|Mushroom|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Strong MP Potion
+Yield: 4
+Input: M|Horn|3
+Input: M|Walnut Root|2
+Input: M|Mushroom|1
+Input: M|Button Mushroom|3
+Input: M|Bean Root|2
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Super MP Potion
+Yield: 4
+Input: M|Mushroom|2
+Input: M|Okara|1
+Input: M|Walnut Root|2
+Input: M|Love Vine|3
+Input: M|Lily Root|3
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Digestive Pill
+Yield: 1
+Input: M|Bean Root|1
+Input: M|Adlay Seed|1
+Input: M|Walnut Root|1
+Input: M|Ginseng|1
+Input: M|Orange Peel|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Stomach Pill
+Yield: 1
+Input: M|Bean Root|2
+Input: M|Orange Peel|2
+Input: M|Lily Root|2
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Anti-cancer Pill
+Yield: 1
+Input: M|Bean Root|2
+Input: M|Adlay Seed|2
+Input: M|Okara|2
+Input: M|Orange Peel|2
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Glaze
+Yield: 4
+Input: M|Limestone|2
+
+===RECIPE===
+Name: Stinky soup(60 seconds)
+Yield: 3
+Input: M|Garlic|3
+Input: M|Poisonous Bottle|2
+Input: M|Mushroom|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Gold Soup
+Yield: 1
+Input: M|Mushroom|3
+Input: M|Walnut Root|3
+Input: M|Adlay Seed|3
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Polisher
+Yield: 1
+Input: M|Lily Root|5
+Input: M|Okara|5
+Input: M|Vinegar|5
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Bleach
+Yield: 1
+Input: M|Lily Root|5
+Input: M|Okara|5
+Input: M|Limestone|5
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Leather Protector
+Yield: 1
+Input: M|Lily Root|5
+Input: M|Okara|5
+Input: M|Soy Bean Milk|5
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Lubricant
+Yield: 1
+Input: M|Lily Root|5
+Input: M|Okara|5
+Input: M|Sesame Oil|5
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Hypertension Pill
+Yield: 1
+Input: M|Adlay Seed|4
+Input: M|Love Vine|2
+Input: M|Okara|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Cold Pill
+Yield: 1
+Input: M|Lily Root|3
+Input: M|Orange Peel|3
+Input: M|Bean Root|2
+Input: M|Horn|2
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Headache Pill
+Yield: 1
+Input: M|Okara|3
+Input: M|Walnut Root|2
+Input: M|Orange Peel|1
+Input: M|Mushroom|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Strange HP Potion for Summons
+Yield: 4
+Input: M|Mushroom|1
+Input: M|Adlay Seed|1
+Input: M|Snowball|1
+Input: M|Madder Seed|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Mysterious HP Potion for Summons
+Yield: 4
+Input: M|Adlay Seed|2
+Input: M|Bean Root|2
+Input: M|Ginseng|1
+Input: M|Orange Peel|1
+Input: M|Snowball|2
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: MP Potion for Summoned Monster
+Yield: 5
+Input: M|Mushroom|1
+Input: M|Ginseng|1
+Input: M|Orange Peel|1
+Input: M|Walnut Root|2
+Input: M|Skeleton Bat Tooth|1
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Antidotes
+Yield: 1
+Input: M|Bean Root|5
+Input: M|Love Vine|10
+Input: M|Madder Seed|15
+Input: T|Bowl|1
+Input: T|Medicine Bowl|1
+
+===RECIPE===
+Name: Apprentice Knight Necklace
+Yield: 1
+Input: M|Amethyst|30
+Input: M|Coal|30
+Input: M|Thread Bobbin|20
+Input: M|Resin|22
+Input: M|Sword Technique[BGN]|1
+Input: M|Spear Technique[BGN]|1
+Input: M|Axe Technique[BGN]|1
+Input: M|Bow Technique[BGN]|1
+Input: M|Gun Technique[BGN]|1
+Input: M|Cane Technique[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Apprentice Weapon Artisan Necklace
+Yield: 1
+Input: M|Aquamarine|40
+Input: M|Coal|40
+Input: M|Thread Bobbin|25
+Input: M|Resin|30
+Input: M|Sword Manufacture[BGN]|1
+Input: M|Spear Manufacture[BGN]|1
+Input: M|Axe Manufacture[BGN]|1
+Input: M|Bow Manufacture[BGN]|1
+Input: M|Gun Manufacture[BGN]|1
+Input: M|Cane Manufacture[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Apprentice Armor Artisan Necklace
+Yield: 1
+Input: M|Aquamarine|30
+Input: M|Coal|35
+Input: M|Thread Bobbin|30
+Input: M|Resin|26
+Input: M|Armor Manufacture[BGN]|1
+Input: M|Helmet Manufacture[BGN]|1
+Input: M|Belt Manufacture[BGN]|1
+Input: M|Shoe Manufacture[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Apprenticeship Maker's Necklace
+Yield: 1
+Input: M|Topaz|40
+Input: M|Coal|25
+Input: M|Thread Bobbin|35
+Input: M|Resin|18
+Input: M|Crystal Manufacture[BGN]|1
+Input: M|Ironware Manufacture[BGN]|1
+Input: M|Tool Manufacture[BGN]|1
+Input: M|Medicine Prescription[BGN]|1
+Input: M|Recipes[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Apprenticeship Technician's Necklace
+Yield: 1
+Input: M|Topaz|30
+Input: M|Coal|20
+Input: M|Thread Bobbin|40
+Input: M|Resin|14
+Input: M|Farming Technique[BGN]|1
+Input: M|Mining Technique[BGN]|1
+Input: M|Fishing Technique[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Apprenticeship Cutter's Necklace
+Yield: 1
+Input: M|Pearl|40
+Input: M|Coal|40
+Input: M|Thread Bobbin|45
+Input: M|Resin|30
+Input: M|Clothes Manufacture[BGN]|1
+Input: M|Hat Manufacture[BGN]|1
+Input: M|Cloak Manufacture[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Jewel Novice's Necklace
+Yield: 1
+Input: M|Ruby|40
+Input: M|Coal|50
+Input: M|Thread Bobbin|50
+Input: M|Resin|30
+Input: M|Ring Manufacture[BGN]|1
+Input: M|Necklace Manufacture[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Other Novice Technician's Necklace
+Yield: 1
+Input: M|Amethyst|30
+Input: M|Coal|15
+Input: M|Thread Bobbin|55
+Input: M|Resin|10
+Input: M|Summon Technique[BGN]|1
+Input: M|Capture Technique[BGN]|1
+Input: M|Horse Training[BGN]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Expert Mercenary's Necklace
+Yield: 1
+Input: M|Amethyst|65
+Input: M|Gold Ore|50
+Input: M|Silver Thread|30
+Input: M|Resin|45
+Input: M|Sword Technique[INT]|1
+Input: M|Spear Technique[INT]|1
+Input: M|Axe Technique[INT]|1
+Input: M|Bow Technique[INT]|1
+Input: M|Gun Technique[INT]|1
+Input: M|Cane Technique[INT]|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Expert Weapon Master's Necklace
+Yield: 1
+Input: M|Aquamarine|80
+Input: M|Gold Ore|60
+Input: M|Silver Thread|40
+Input: M|Resin|54
+Input: M|Sword Manufacture[INT]|1
+Input: M|Spear Manufacture[INT]|1
+Input: M|Axe Manufacture[INT]|1
+Input: M|Bow Manufacture[INT]|1
+Input: M|Gun Manufacture[INT]|1
+Input: M|Cane Manufacture[INT]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Expert Armor Master's Necklace
+Yield: 1
+Input: M|Aquamarine|65
+Input: M|Gold Ore|55
+Input: M|Silver Thread|35
+Input: M|Resin|50
+Input: M|Armor Manufacture[INT]|1
+Input: M|Helmet Manufacture[INT]|1
+Input: M|Belt Manufacture[INT]|1
+Input: M|Shoe Manufacture[INT]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Expert Manufacturer's Necklace
+Yield: 1
+Input: M|Topaz|80
+Input: M|Gold Ore|45
+Input: M|Silver Thread|25
+Input: M|Resin|42
+Input: M|Crystal Manufacture[INT]|1
+Input: M|Ironware Manufacture[INT]|1
+Input: M|Tool Manufacture[INT]|1
+Input: M|Medicine Prescription[INT]|1
+Input: M|Recipes[INT]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Expert Technician's Necklace
+Yield: 1
+Input: M|Topaz|65
+Input: M|Gold Ore|40
+Input: M|Silver Thread|20
+Input: M|Resin|38
+Input: M|Farming Technique[INT]|1
+Input: M|Mining Technique[INT]|1
+Input: M|Fishing Technique[INT]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Expert Cutter's Necklace
+Yield: 1
+Input: M|Pearl|80
+Input: M|Gold Ore|55
+Input: M|Silver Thread|35
+Input: M|Resin|50
+Input: M|Clothes Manufacture[INT]|1
+Input: M|Hat Manufacture[INT]|1
+Input: M|Cloak Manufacture[INT]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Expert Jewel Maker's Necklace
+Yield: 1
+Input: M|Ruby|80
+Input: M|Gold Ore|55
+Input: M|Silver Thread|35
+Input: M|Resin|50
+Input: M|Ring Manufacture[INT]|1
+Input: M|Necklace Manufacture[INT]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Other Skillful Technician's Necklace
+Yield: 1
+Input: M|Amethyst|65
+Input: M|Gold Ore|35
+Input: M|Silver Thread|15
+Input: M|Resin|34
+Input: M|Summon Technique[INT]|1
+Input: M|Capture Technique[INT]|1
+Input: M|Horse Training[INT]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Knights Leader's Necklace
+Yield: 1
+Input: M|Amethyst|130
+Input: M|Gold Bar|21
+Input: M|Gold Thread|45
+Input: M|Pine|50
+Input: M|Sword Technique[ADV]|1
+Input: M|Spear Technique[ADV]|1
+Input: M|Axe Technique[ADV]|1
+Input: M|Bow Technique[ADV]|1
+Input: M|Gun Technique[ADV]|1
+Input: M|Cane Technique[ADV]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Dwarf Weapon Master's Necklace
+Yield: 1
+Input: M|Aquamarine|160
+Input: M|Gold Bar|25
+Input: M|Gold Thread|55
+Input: M|Pine|60
+Input: M|Sword Manufacture[ADV]|1
+Input: M|Spear Manufacture[ADV]|1
+Input: M|Axe Manufacture[ADV]|1
+Input: M|Bow Manufacture[ADV]|1
+Input: M|Gun Manufacture[ADV]|1
+Input: M|Cane Manufacture[ADV]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Dwarf Armor Master's Necklace
+Yield: 1
+Input: M|Aquamarine|130
+Input: M|Gold Bar|23
+Input: M|Gold Thread|50
+Input: M|Pine|55
+Input: M|Armor Manufacture[ADV]|1
+Input: M|Helmet Manufacture[ADV]|1
+Input: M|Belt Manufacture[ADV]|1
+Input: M|Shoe Manufacture[ADV]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Manufacturing Master's Necklace
+Yield: 1
+Input: M|Topaz|160
+Input: M|Gold Bar|19
+Input: M|Gold Thread|40
+Input: M|Pine|45
+Input: M|Crystal Manufacture[ADV]|1
+Input: M|Ironware Manufacture[ADV]|1
+Input: M|Tool Manufacture[ADV]|1
+Input: M|Medicine Prescription[ADV]|1
+Input: M|Recipes[ADV]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Technic Master's Necklace
+Yield: 1
+Input: M|Topaz|130
+Input: M|Gold Bar|17
+Input: M|Gold Thread|35
+Input: M|Pine|40
+Input: M|Farming Technique[ADV]|1
+Input: M|Mining Technique[ADV]|1
+Input: M|Fishing Technique[INT]|3
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Cutting Master's Necklace
+Yield: 1
+Input: M|Pearl|160
+Input: M|Gold Bar|25
+Input: M|Gold Thread|55
+Input: M|Pine|60
+Input: M|Clothes Manufacture[ADV]|1
+Input: M|Hat Manufacture[ADV]|1
+Input: M|Cloak Manufacture[ADV]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Jewel Master's Necklace
+Yield: 1
+Input: M|Ruby|160
+Input: M|Gold Bar|25
+Input: M|Gold Thread|55
+Input: M|Pine|60
+Input: M|Ring Manufacture[ADV]|1
+Input: M|Necklace Manufacture[ADV]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Other Master Technician's Necklace
+Yield: 1
+Input: M|Amethyst|130
+Input: M|Gold Bar|15
+Input: M|Gold Thread|30
+Input: M|Pine|35
+Input: M|Summon Technique[ADV]|1
+Input: M|Capture Technique[ADV]|1
+Input: M|Horse Training[ADV]|1
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Frozen Necklace
+Yield: 1
+Input: M|Aquamarine|200
+Input: M|Gold Bar|27
+Input: M|Snowball|40
+Input: M|Pine|65
+Input: M|Water Stone|25
+Input: M|Blue Stone Piece|10
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Flame Necklace
+Yield: 1
+Input: M|Ruby|215
+Input: M|Gold Bar|29
+Input: M|Sorcerer's eye|40
+Input: M|Pine|70
+Input: M|Fire Stone|25
+Input: M|Red Stone Piece|10
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Dragon Knight Necklace
+Yield: 1
+Input: M|Amethyst|230
+Input: M|Gold Bar|31
+Input: M|Ruby|40
+Input: M|Pine|75
+Input: M|Blessing Stone|25
+Input: M|Black Stone|35
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Abel Necklace
+Yield: 1
+Input: M|Topaz|245
+Input: M|Gold Bar|33
+Input: M|Pearl|40
+Input: M|Pine|80
+Input: M|Blessing Stone|25
+Input: M|Golden Stone Piece|10
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Vampire Necklace[Avatar]
+Yield: 1
+Input: M|Pearl|160
+Input: M|Gold Bar|15
+Input: M|Ruby|40
+Input: M|Pine|40
+Input: M|Blessing Stone|25
+Input: M|Black Stone|25
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Dark Knight Necklace
+Yield: 1
+Input: M|Diamond|350
+Input: M|Gold Bar|40
+Input: M|Pearl|40
+Input: M|Pine|90
+Input: M|Blessing Stone|25
+Input: M|Black Stone|10
+Input: M|Golden Stone Piece|10
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Arrow
+Yield: 200
+Input: M|Bamboo|1
+Input: M|Iron Ore|1
+Input: M|Feather|1
+
+===RECIPE===
+Name: Bullet
+Yield: 200
+Input: M|Copper|1
+Input: M|Coal|1
+Input: M|Sulfur|1
+
+===RECIPE===
+Name: Bowl
+Yield: 1
+Input: M|Clay|40
+Input: M|Glaze|10
+Input: M|Charcoal|2
+
+===RECIPE===
+Name: Medicine Bowl
+Yield: 1
+Input: M|Clay|40
+Input: M|Glaze|10
+Input: M|Charcoal|2
+
+===RECIPE===
+Name: Pottery
+Yield: 1
+Input: M|Clay|40
+Input: M|Glaze|20
+Input: M|Charcoal|4
+
+===RECIPE===
+Name: Plate
+Yield: 1
+Input: M|Clay|16
+Input: M|Glaze|10
+Input: M|Charcoal|4
+
+===RECIPE===
+Name: Grinding Stone
+Yield: 1
+Input: M|Clay-slate Stone|30
+Input: M|Oak|6
+
+===RECIPE===
+Name: Mortar
+Yield: 1
+Input: M|Clay-slate Stone|60
+
+===RECIPE===
+Name: Brass Crafting Dish
+Yield: 1
+Input: M|Brass|10
+Input: M|Charcoal|20
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Ring of Oger
+Yield: 1
+Input: M|Ruby|30
+Input: M|Coral|10
+Input: M|Amber|8
+Input: M|Brass|3
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Ring of Intelligence
+Yield: 1
+Input: M|Diamond|35
+Input: M|Coral|15
+Input: M|Amber|14
+Input: M|Brass|6
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Ring of Thunder
+Yield: 1
+Input: M|Aquamarine|40
+Input: M|Topaz|15
+Input: M|Amber|20
+Input: M|Brass|9
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Ring of Stamina
+Yield: 1
+Input: M|Pearl|45
+Input: M|Coal|20
+Input: M|Amber|26
+Input: M|Brass|12
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Rucky Ring[Avatar]
+Yield: 1
+Input: M|Amethyst|50
+Input: M|Coal|25
+Input: M|Amber|32
+Input: M|Brass|15
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Ring of Knights
+Yield: 1
+Input: M|Ruby|55
+Input: M|Coral|12
+Input: M|Silver Ore|38
+Input: M|Brass|18
+Input: M|Lead|20
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Ring of Magicians
+Yield: 1
+Input: M|Diamond|60
+Input: M|Coral|15
+Input: M|Silver Ore|44
+Input: M|Brass|21
+Input: M|Lead|25
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Lightning
+Yield: 1
+Input: M|Aquamarine|65
+Input: M|Topaz|30
+Input: M|Silver Ore|50
+Input: M|Brass|24
+Input: M|Lead|30
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Angel
+Yield: 1
+Input: M|Pearl|70
+Input: M|Coral|21
+Input: M|Silver Ore|56
+Input: M|Brass|27
+Input: M|Lead|35
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Abundance
+Yield: 1
+Input: M|Amethyst|75
+Input: M|Coral|24
+Input: M|Silver Ore|62
+Input: M|Brass|30
+Input: M|Lead|40
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Destroyer
+Yield: 1
+Input: M|Ruby|80
+Input: M|Spiky Silk|30
+Input: M|Gold Ore|68
+Input: M|Brass|33
+Input: M|Lead|45
+Input: M|Bronze|10
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Philosopher
+Yield: 1
+Input: M|Diamond|85
+Input: M|Spiky Silk|40
+Input: M|Gold Ore|74
+Input: M|Brass|36
+Input: M|Lead|50
+Input: M|Bronze|15
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Storm
+Yield: 1
+Input: M|Aquamarine|90
+Input: M|Topaz|45
+Input: M|Gold Ore|80
+Input: M|Brass|39
+Input: M|Lead|55
+Input: M|Bronze|20
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Guardian
+Yield: 1
+Input: M|Pearl|95
+Input: M|Spiky Silk|50
+Input: M|Gold Ore|86
+Input: M|Brass|42
+Input: M|Lead|60
+Input: M|Bronze|25
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Ring of Master
+Yield: 1
+Input: M|Amethyst|100
+Input: M|Spiky Silk|60
+Input: M|Gold Ore|92
+Input: M|Brass|45
+Input: M|Lead|65
+Input: M|Bronze|30
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Frozen Ring
+Yield: 1
+Input: M|Blue Stone Piece|5
+Input: M|Snowball|15
+Input: M|Water Stone|10
+Input: M|Brass|48
+Input: M|Lead|70
+Input: M|Bronze|35
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Flame Ring
+Yield: 1
+Input: M|Red Stone Piece|5
+Input: M|Sorcerer's Eye|15
+Input: M|Fire Stone|10
+Input: M|Brass|51
+Input: M|Lead|75
+Input: M|Bronze|40
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Dragon Knight Ring
+Yield: 1
+Input: M|Black Stone|20
+Input: M|Diamond|30
+Input: M|Blessing Stone|10
+Input: M|Brass|54
+Input: M|Lead|80
+Input: M|Bronze|45
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Abel Ring
+Yield: 1
+Input: M|Golden Stone Piece|5
+Input: M|Pearl|30
+Input: M|Blessing Stone|10
+Input: M|Brass|57
+Input: M|Lead|85
+Input: M|Bronze|50
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Vampire Ring[Avatar]
+Yield: 1
+Input: M|Black Stone|10
+Input: M|Amethyst|30
+Input: M|Blessing Stone|10
+Input: M|Brass|60
+Input: M|Lead|90
+Input: M|Bronze|55
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: Dark Knight Ring[Avartar]
+Yield: 1
+Input: M|Golden Stone Piece|5
+Input: M|Black Stone|5
+Input: M|Diamond|50
+Input: M|Blessing Stone|10
+Input: M|Brass|65
+Input: M|Lead|95
+Input: M|Bronze|60
+Input: T|Sawdust|1
+Input: T|Craft Shelf|1
+
+===RECIPE===
+Name: JP Straw Shoes
+Yield: 1
+Input: M|Straw|15
+
+===RECIPE===
+Name: Straw Shoes
+Yield: 1
+Input: M|Straw|20
+Input: M|Cowhide|10
+
+===RECIPE===
+Name: Round Shoes
+Yield: 1
+Input: M|Straw|30
+Input: M|Cowhide|10
+
+===RECIPE===
+Name: Wooden Shoes
+Yield: 1
+Input: M|Oak|45
+
+===RECIPE===
+Name: Leather Shoes
+Yield: 1
+Input: M|Cowhide|30
+Input: M|Silk|30
+Input: M|Thread Bobbin|10
+Input: M|Cotton|10
+Input: T|Needle|1
+
+===RECIPE===
+Name: Wooden Boots
+Yield: 1
+Input: M|Cowhide|30
+Input: M|Silk|30
+Input: M|Embroidered Thread Bobbin|60
+Input: M|Satin|60
+Input: M|Thread Bobbin|15
+Input: M|Cotton|30
+Input: T|Needle|1
+
+===RECIPE===
+Name: Aquatic Boots
+Yield: 1
+Input: M|Cowhide|30
+Input: M|Silk|40
+Input: M|Embroidered Thread Bobbin|60
+Input: M|Satin|60
+Input: M|Thread Bobbin|30
+Input: M|Cotton|30
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Rapid Shoes
+Yield: 1
+Input: M|Cowhide|50
+Input: M|Silk|40
+Input: M|Embroidered Thread Bobbin|100
+Input: M|Satin|80
+Input: M|Thread Bobbin|45
+Input: M|Cotton|40
+Input: M|Bleach|1
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Glass Shoes
+Yield: 1
+Input: M|Cowhide|50
+Input: M|Silk|45
+Input: M|Embroidered Thread Bobbin|100
+Input: M|Satin|100
+Input: M|Thread Bobbin|60
+Input: M|Cotton|40
+Input: M|Bleach|2
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Black Shoes
+Yield: 1
+Input: S|Rapid Shoes|1
+Input: M|Embroidered Thread Bobbin|120
+Input: M|Satin|120
+Input: M|Premium Silk|40
+Input: M|Gold Thread|30
+Input: M|Silver Thread|30
+Input: M|Thread Bobbin|75
+Input: M|Cotton|60
+Input: M|Amethyst|30
+Input: M|Bleach|5
+Input: T|Needle|1
+Input: T|Scissor|1
+
+===RECIPE===
+Name: Green Shoes
+Yield: 1
+Input: S|Glass Shoes|1
+Input: M|Embroidered Thread Bobbin|120
+Input: M|Satin|120
+Input: M|Premium Silk|40
+Input: M|Gold Thread|30
+Input: M|Silver Thread|30
+Input: M|Thread Bobbin|90
+Input: M|Cotton|60
+Input: M|Amethyst|30
+Input: M|Bleach|6
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Red Shoes
+Yield: 1
+Input: S|Black Shoes|1
+Input: M|Embroidered Thread Bobbin|140
+Input: M|Satin|140
+Input: M|Premium Silk|50
+Input: M|Gold Thread|70
+Input: M|Silver Thread|70
+Input: M|Thread Bobbin|110
+Input: M|Cotton|80
+Input: M|Amethyst|40
+Input: M|Bleach|10
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+
+===RECIPE===
+Name: Brown Shoes
+Yield: 1
+Input: S|Green Shoes|1
+Input: M|Embroidered Thread Bobbin|140
+Input: M|Satin|140
+Input: M|Premium Silk|50
+Input: M|Gold Thread|70
+Input: M|Silver Thread|70
+Input: M|Thread Bobbin|120
+Input: M|Cotton|80
+Input: M|Amethyst|50
+Input: M|Bleach|10
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Frozen Shoes
+Yield: 1
+Input: S|Red Shoes|1
+Input: M|Embroidered Thread Bobbin|150
+Input: M|Satin|150
+Input: M|Premium Silk|70
+Input: M|Gold Thread|80
+Input: M|Silver Thread|80
+Input: M|Thread Bobbin|120
+Input: M|Cotton|80
+Input: M|Amethyst|100
+Input: M|Bleach|12
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Flame Shoes
+Yield: 1
+Input: S|Brown Shoes|1
+Input: M|Embroidered Thread Bobbin|200
+Input: M|Satin|200
+Input: M|Premium Silk|90
+Input: M|Gold Thread|110
+Input: M|Silver Thread|110
+Input: M|Thread Bobbin|130
+Input: M|Cotton|110
+Input: M|Amethyst|120
+Input: M|Bleach|15
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Dragon Knight Shoes
+Yield: 1
+Input: M|Titanium|20
+Input: M|Aramid|160
+Input: M|Mahogany|120
+Input: M|Spiky Accessory|50
+Input: M|Spiky Silk|100
+Input: M|Black Silk|100
+Input: M|Amethyst|200
+Input: M|Bleach|10
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Abel Knight Shoe
+Yield: 1
+Input: M|Titanium|30
+Input: M|Aramid|170
+Input: M|Mahogany|130
+Input: M|Spiky Accessory|80
+Input: M|Spiky Silk|150
+Input: M|Black Silk|150
+Input: M|Amethyst|250
+Input: M|Bleach|20
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Gimlet|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Vampire Shoes
+Yield: 1
+Input: M|Black Stone|80
+Input: M|Blessing Stone|25
+Input: M|Premium Silk|50
+Input: M|Gold Thread|70
+Input: M|Silver Thread|70
+Input: M|Thread Bobbin|120
+Input: M|Cotton|80
+Input: M|Amethyst|50
+Input: M|Bleach|10
+Input: T|Needle|1
+Input: T|Scissor|1
+Input: T|Saw|1
+Input: T|Flat Iron|1
+
+===RECIPE===
+Name: Bamboo Spear
+Yield: 1
+Input: M|Bamboo|10
+
+===RECIPE===
+Name: Apprentice Spear
+Yield: 1
+Input: M|Oak|3
+Input: M|Cowhide|3
+Input: M|Silk|2
+Input: M|Copper|4
+
+===RECIPE===
+Name: Half-moon Spear
+Yield: 1
+Input: M|Oak|5
+Input: M|Cowhide|4
+Input: M|Silk|3
+Input: M|Coal|1
+Input: M|Copper|9
+Input: M|Iron Ore|4
+
+===RECIPE===
+Name: Moon Spear
+Yield: 1
+Input: M|Oak|10
+Input: M|Cowhide|4
+Input: M|Silk|4
+Input: M|Gold Bar|2
+Input: M|Silver Bar|1
+Input: M|Iron|3
+Input: M|Coal|3
+Input: M|Copper|12
+
+===RECIPE===
+Name: Dragon Spear
+Yield: 1
+Input: M|Oak|15
+Input: M|Cowhide|6
+Input: M|Silk|8
+Input: M|Gold Bar|3
+Input: M|Silver Bar|2
+Input: M|Iron|4
+Input: M|Coal|5
+Input: M|Copper|20
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Barchha
+Yield: 1
+Input: M|Oak|20
+Input: M|Cowhide|6
+Input: M|Silk|8
+Input: M|Gold Bar|7
+Input: M|Silver Bar|7
+Input: M|Iron|5
+Input: M|Copper|20
+Input: M|Amber|2
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Iron-fist
+Yield: 1
+Input: M|Charcoal|5
+Input: M|Cowhide|9
+Input: M|Silk|12
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Iron|7
+Input: M|Coal|20
+Input: M|Copper|25
+Input: M|Amber|5
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Wing Spear
+Yield: 1
+Input: S|Barchha|1
+Input: M|Oak|30
+Input: M|Cowhide|9
+Input: M|Silk|12
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Iron|7
+Input: M|Copper|25
+Input: M|Amber|7
+Input: M|Polisher|1
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Grand Scythe
+Yield: 1
+Input: S|Iron-fist|1
+Input: M|Charcoal|9
+Input: M|Cowhide|15
+Input: M|Silk|15
+Input: M|Gold Bar|10
+Input: M|Silver Bar|10
+Input: M|Iron|10
+Input: M|Coal|12
+Input: M|Amber|10
+Input: M|Polisher|3
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Scorpion
+Yield: 1
+Input: S|Wing Spear|1
+Input: M|Oak|50
+Input: M|Cowhide|16
+Input: M|Silk|19
+Input: M|Gold Bar|15
+Input: M|Silver Bar|15
+Input: M|Iron|13
+Input: M|Copper|30
+Input: M|Amber|12
+Input: M|Polisher|5
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Moon Spirit Spear
+Yield: 1
+Input: S|Grand Scythe|1
+Input: M|Charcoal|11
+Input: M|Cowhide|20
+Input: M|Silk|20
+Input: M|Gold Bar|15
+Input: M|Silver Bar|15
+Input: M|Iron|15
+Input: M|Coal|15
+Input: M|Amber|15
+Input: M|Polisher|7
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Grand Screw Spear
+Yield: 1
+Input: S|Scorpion|1
+Input: M|Oak|60
+Input: M|Cowhide|21
+Input: M|Silk|25
+Input: M|Gold Bar|25
+Input: M|Silver Bar|25
+Input: M|Iron|25
+Input: M|Copper|40
+Input: M|Amber|20
+Input: M|Polisher|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Bardiche
+Yield: 1
+Input: S|Moon Spirit Spear|1
+Input: M|Charcoal|13
+Input: M|Cowhide|27
+Input: M|Silk|27
+Input: M|Gold Bar|30
+Input: M|Silver Bar|30
+Input: M|Iron|27
+Input: M|Coal|18
+Input: M|Amber|22
+Input: M|Polisher|12
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Halberd
+Yield: 1
+Input: S|Grand Screw Spear|1
+Input: M|Oak|70
+Input: M|Cowhide|40
+Input: M|Silk|40
+Input: M|Gold Bar|40
+Input: M|Silver Bar|40
+Input: M|Iron|37
+Input: M|Copper|60
+Input: M|Amber|60
+Input: M|Polisher|18
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Lightning Spear
+Yield: 1
+Input: S|Bardiche|1
+Input: M|Charcoal|20
+Input: M|Cowhide|40
+Input: M|Silk|40
+Input: M|Gold Bar|45
+Input: M|Silver Bar|45
+Input: M|Iron|37
+Input: M|Coal|30
+Input: M|Amber|60
+Input: M|Polisher|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Holy Lance
+Yield: 1
+Input: M|Titanium|100
+Input: M|Aramid|120
+Input: M|Mahogany|80
+Input: M|Bronze|80
+Input: M|Lead|100
+Input: M|Spiky Silk|40
+Input: M|Black Silk|30
+Input: M|Amber|200
+Input: M|Polisher|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Unisus Spear
+Yield: 1
+Input: M|Titanium|110
+Input: M|Aramid|130
+Input: M|Mahogany|90
+Input: M|Bronze|130
+Input: M|Lead|150
+Input: M|Spiky Silk|90
+Input: M|Black Silk|80
+Input: M|Amber|250
+Input: M|Polisher|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Paladin Cross Spear
+Yield: 1
+Input: M|Titanium|140
+Input: M|Aramid|120
+Input: M|Mahogany|160
+Input: M|Lead|140
+Input: M|Black Silk|170
+Input: M|Spiky Silk|110
+Input: M|Animal Bones|140
+Input: M|Charcoal|100
+Input: M|Amber|270
+Input: M|Polisher|35
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Ink Stick
+Yield: 1
+Input: M|Sesame Oil|4
+Input: M|Charcoal|2
+Input: T|Mortar|1
+
+===RECIPE===
+Name: Ink Stone
+Yield: 1
+Input: M|Clay-slate Stone|30
+
+===RECIPE===
+Name: Writing Brush
+Yield: 1
+Input: M|Animal Fur|40
+Input: M|Bamboo|10
+
+===RECIPE===
+Name: Bamboo Sword
+Yield: 1
+Input: M|Bamboo|10
+
+===RECIPE===
+Name: Bronze Sword
+Yield: 1
+Input: M|Oak|3
+Input: M|Cowhide|2
+Input: M|Copper|8
+Input: M|Clay-slate Stone|30
+
+===RECIPE===
+Name: Sabre
+Yield: 1
+Input: M|Oak|5
+Input: M|Cowhide|3
+Input: M|Copper|16
+Input: M|Clay-slate Stone|40
+Input: M|Gold Ore|3
+Input: M|Iron Ore|2
+
+===RECIPE===
+Name: Steel Sword
+Yield: 1
+Input: M|Oak|7
+Input: M|Cowhide|3
+Input: M|Silk|3
+Input: M|Copper|24
+Input: M|Clay-slate Stone|50
+Input: M|Gold Ore|7
+Input: M|Silver Ore|7
+Input: M|Iron Ore|7
+
+===RECIPE===
+Name: Golden Sword
+Yield: 1
+Input: M|Charcoal|2
+Input: M|Cowhide|10
+Input: M|Silk|15
+Input: M|Gold Bar|2
+Input: M|Silver Bar|2
+Input: M|Iron|10
+Input: M|Copper|35
+Input: M|Clay-slate Stone|8
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Gladius
+Yield: 1
+Input: M|Charcoal|4
+Input: M|Cowhide|10
+Input: M|Silk|15
+Input: M|Gold Bar|3
+Input: M|Silver Bar|4
+Input: M|Iron|10
+Input: M|Copper|35
+Input: M|Jade|10
+Input: M|Pearl|5
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Damascus
+Yield: 1
+Input: M|Charcoal|7
+Input: M|Cowhide|12
+Input: M|Silk|15
+Input: M|Gold Bar|6
+Input: M|Silver Bar|4
+Input: M|Iron|10
+Input: M|Copper|40
+Input: M|Jade|15
+Input: M|Pearl|10
+Input: T|Anvil|1
+
+===RECIPE===
+Name: Great Tiger Sword
+Yield: 1
+Input: S|Gladius|1
+Input: M|Charcoal|8
+Input: M|Cowhide|12
+Input: M|Silk|15
+Input: M|Gold Bar|6
+Input: M|Silver Bar|8
+Input: M|Iron|10
+Input: M|Jade|15
+Input: M|Pearl|15
+Input: M|Polisher|1
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Japanese Sword
+Yield: 1
+Input: S|Damascus|1
+Input: M|Charcoal|11
+Input: M|Cowhide|15
+Input: M|Silk|12
+Input: M|Gold Bar|8
+Input: M|Silver Bar|8
+Input: M|Iron|10
+Input: M|Jade|18
+Input: M|Pearl|20
+Input: M|Polisher|3
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Katzbalger
+Yield: 1
+Input: S|Great Tiger Sword|1
+Input: M|Charcoal|12
+Input: M|Cowhide|15
+Input: M|Silk|18
+Input: M|Gold Bar|9
+Input: M|Silver Bar|10
+Input: M|Iron|15
+Input: M|Jade|20
+Input: M|Pearl|25
+Input: M|Polisher|5
+Input: T|Anvil|1
+Input: T|Hammer|1
+
+===RECIPE===
+Name: Dragon Knight Sword
+Yield: 1
+Input: S|Japanese Sword|1
+Input: M|Charcoal|14
+Input: M|Cowhide|18
+Input: M|Silk|15
+Input: M|Gold Bar|18
+Input: M|Silver Bar|18
+Input: M|Iron|15
+Input: M|Jade|22
+Input: M|Pearl|30
+Input: M|Polisher|7
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Deathblow Sword
+Yield: 1
+Input: S|Katzbalger|1
+Input: M|Charcoal|15
+Input: M|Cowhide|18
+Input: M|Silk|20
+Input: M|Gold Bar|18
+Input: M|Silver Bar|20
+Input: M|Iron|20
+Input: M|Jade|25
+Input: M|Pearl|40
+Input: M|Polisher|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Bastard Sword
+Yield: 1
+Input: S|Dragon Knight Sword|1
+Input: M|Charcoal|18
+Input: M|Cowhide|20
+Input: M|Silk|18
+Input: M|Gold Bar|20
+Input: M|Silver Bar|20
+Input: M|Iron|20
+Input: M|Jade|30
+Input: M|Pearl|45
+Input: M|Polisher|12
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+
+===RECIPE===
+Name: Zweihander
+Yield: 1
+Input: S|Deathblow Sword|1
+Input: M|Charcoal|25
+Input: M|Cowhide|30
+Input: M|Silk|28
+Input: M|Gold Bar|40
+Input: M|Silver Bar|40
+Input: M|Iron|40
+Input: M|Jade|36
+Input: M|Pearl|60
+Input: M|Polisher|18
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Iron Slasher
+Yield: 1
+Input: S|Bastard Sword|1
+Input: M|Charcoal|26
+Input: M|Cowhide|28
+Input: M|Silk|30
+Input: M|Gold Bar|40
+Input: M|Silver Bar|40
+Input: M|Iron|40
+Input: M|Jade|40
+Input: M|Pearl|60
+Input: M|Polisher|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Platina Sword
+Yield: 1
+Input: M|Titanium|140
+Input: M|Aramid|60
+Input: M|Mahogany|100
+Input: M|Bronze|120
+Input: M|Lead|90
+Input: M|Spiky Silk|20
+Input: M|Black Silk|20
+Input: M|Pearl|200
+Input: M|Polisher|10
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Saw Sword
+Yield: 1
+Input: M|Titanium|150
+Input: M|Aramid|70
+Input: M|Mahogany|110
+Input: M|Bronze|170
+Input: M|Lead|140
+Input: M|Spiky Silk|70
+Input: M|Black Silk|70
+Input: M|Pearl|250
+Input: M|Polisher|20
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Paladin Golden Sword
+Yield: 1
+Input: M|Titanium|180
+Input: M|Aramid|100
+Input: M|Mahogany|140
+Input: M|Bronze|170
+Input: M|Lead|150
+Input: M|Black Silk|100
+Input: M|Silk Thread|100
+Input: M|Gold Bar|140
+Input: M|Pearl|270
+Input: M|Polisher|35
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+
+===RECIPE===
+Name: Guardian's Sword
+Yield: 1
+Input: M|Cobalt|260
+Input: M|Ginkgo Tree Fossil|240
+Input: M|Titanium|160
+Input: M|Mahogany|120
+Input: M|Bronze|220
+Input: M|Black Silk|180
+Input: M|Silk Thread|120
+Input: M|Gold Bar|160
+Input: M|Pearl|300
+Input: M|Polisher|55
+Input: T|Anvil|1
+Input: T|Hammer|1
+Input: T|Saw|1
+Input: T|Sawdust|1
+

@@ -32,6 +32,9 @@
     <ClCompile Include="ManuTool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ManuTool.rc">
@@ -48,5 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
+    <None Include="README.md" />
+    <None Include="Scripts\extract_recipes.py" />
   </ItemGroup>
 </Project>

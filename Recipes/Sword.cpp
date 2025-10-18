@@ -1,0 +1,255 @@
+#include "RecipeModel.h"
+#include "RecipeModules.h"
+
+using RecipesDB::Mat;
+using RecipesDB::Sub;
+using RecipesDB::Tool;
+using RecipesDB::AddRecipe;
+
+using namespace recipes;
+
+void recipes::RegisterSwordRecipes() {
+    AddRecipe(L"Bamboo Sword", {
+        Mat(L"Bamboo", 10),
+        });
+    AddRecipe(L"Bronze Sword", {
+        Mat(L"Oak", 3),
+        Mat(L"Cowhide", 2),
+        Mat(L"Copper", 8),
+        Mat(L"Clay-slate Stone", 30),
+        });
+    AddRecipe(L"Sabre", {
+        Mat(L"Oak", 5),
+        Mat(L"Cowhide", 3),
+        Mat(L"Copper", 16),
+        Mat(L"Clay-slate Stone", 40),
+        Mat(L"Gold Ore", 3),
+        Mat(L"Iron Ore", 2),
+        });
+    AddRecipe(L"Steel Sword", {
+        Mat(L"Oak", 7),
+        Mat(L"Cowhide", 3),
+        Mat(L"Silk", 3),
+        Mat(L"Copper", 24),
+        Mat(L"Clay-slate Stone", 50),
+        Mat(L"Gold Ore", 7),
+        Mat(L"Silver Ore", 7),
+        Mat(L"Iron Ore", 7),
+        });
+    AddRecipe(L"Golden Sword", {
+        Mat(L"Charcoal", 2),
+        Mat(L"Cowhide", 10),
+        Mat(L"Silk", 15),
+        Mat(L"Gold Bar", 2),
+        Mat(L"Silver Bar", 2),
+        Mat(L"Iron", 10),
+        Mat(L"Copper", 35),
+        Mat(L"Clay-slate Stone", 8),
+        Tool(L"Anvil", 1),
+        });
+    AddRecipe(L"Gladius", {
+        Mat(L"Charcoal",4),
+        Mat(L"Cowhide", 10),
+        Mat(L"Silk", 15),
+        Mat(L"Gold Bar", 3),
+        Mat(L"Silver Bar", 4),
+        Mat(L"Iron", 10),
+        Mat(L"Copper", 35),
+        Mat(L"Jade", 10),
+        Mat(L"Pearl", 5),
+        Tool(L"Anvil", 1),
+        });
+    AddRecipe(L"Damascus", {
+        Mat(L"Charcoal",7),
+        Mat(L"Cowhide", 12),
+        Mat(L"Silk", 15),
+        Mat(L"Gold Bar", 6),
+        Mat(L"Silver Bar", 4),
+        Mat(L"Iron", 10),
+        Mat(L"Copper", 40),
+        Mat(L"Jade", 15),
+        Mat(L"Pearl", 10),
+        Tool(L"Anvil", 1),
+        });
+    AddRecipe(L"Great Tiger Sword", {
+        Sub(L"Gladius", 1),
+        Mat(L"Charcoal",8),
+        Mat(L"Cowhide", 12),
+        Mat(L"Silk", 15),
+        Mat(L"Gold Bar", 6),
+        Mat(L"Silver Bar", 8),
+        Mat(L"Iron", 10),
+        Mat(L"Jade", 15),
+        Mat(L"Pearl", 15),
+        Mat(L"Polisher", 1),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        });
+    AddRecipe(L"Japanese Sword", {
+        Sub(L"Damascus", 1),
+        Mat(L"Charcoal",11),
+        Mat(L"Cowhide", 15),
+        Mat(L"Silk", 12),
+        Mat(L"Gold Bar", 8),
+        Mat(L"Silver Bar", 8),
+        Mat(L"Iron", 10),
+        Mat(L"Jade", 18),
+        Mat(L"Pearl", 20),
+        Mat(L"Polisher", 3),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        });
+    AddRecipe(L"Katzbalger", {
+        Sub(L"Great Tiger Sword", 1),
+        Mat(L"Charcoal",12),
+        Mat(L"Cowhide", 15),
+        Mat(L"Silk", 18),
+        Mat(L"Gold Bar", 9),
+        Mat(L"Silver Bar", 10),
+        Mat(L"Iron", 15),
+        Mat(L"Jade", 20),
+        Mat(L"Pearl", 25),
+        Mat(L"Polisher", 5),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        });
+    AddRecipe(L"Dragon Knight Sword", {
+        Sub(L"Japanese Sword", 1),
+        Mat(L"Charcoal",14),
+        Mat(L"Cowhide", 18),
+        Mat(L"Silk", 15),
+        Mat(L"Gold Bar", 18),
+        Mat(L"Silver Bar", 18),
+        Mat(L"Iron", 15),
+        Mat(L"Jade", 22),
+        Mat(L"Pearl", 30),
+        Mat(L"Polisher", 7),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        });
+    AddRecipe(L"Deathblow Sword", {
+        Sub(L"Katzbalger", 1),
+        Mat(L"Charcoal",15),
+        Mat(L"Cowhide", 18),
+        Mat(L"Silk", 20),
+        Mat(L"Gold Bar", 18),
+        Mat(L"Silver Bar", 20),
+        Mat(L"Iron", 20),
+        Mat(L"Jade", 25),
+        Mat(L"Pearl", 40),
+        Mat(L"Polisher", 10),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        });
+    AddRecipe(L"Bastard Sword", {
+        Sub(L"Dragon Knight Sword", 1),
+        Mat(L"Charcoal",18),
+        Mat(L"Cowhide", 20),
+        Mat(L"Silk", 18),
+        Mat(L"Gold Bar", 20),
+        Mat(L"Silver Bar", 20),
+        Mat(L"Iron", 20),
+        Mat(L"Jade", 30),
+        Mat(L"Pearl", 45),
+        Mat(L"Polisher", 12),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        });
+    AddRecipe(L"Zweihander", {
+        Sub(L"Deathblow Sword", 1),
+        Mat(L"Charcoal",25),
+        Mat(L"Cowhide", 30),
+        Mat(L"Silk", 28),
+        Mat(L"Gold Bar",40),
+        Mat(L"Silver Bar", 40),
+        Mat(L"Iron", 40),
+        Mat(L"Jade", 36),
+        Mat(L"Pearl", 60),
+        Mat(L"Polisher", 18),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        Tool(L"Sawdust", 1),
+        });
+    AddRecipe(L"Iron Slasher", {
+        Sub(L"Bastard Sword", 1),
+        Mat(L"Charcoal",26),
+        Mat(L"Cowhide", 28),
+        Mat(L"Silk", 30),
+        Mat(L"Gold Bar", 40),
+        Mat(L"Silver Bar", 40),
+        Mat(L"Iron", 40),
+        Mat(L"Jade", 40),
+        Mat(L"Pearl", 60),
+        Mat(L"Polisher", 20),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        Tool(L"Sawdust", 1),
+        });
+    AddRecipe(L"Platina Sword", {
+        Mat(L"Titanium",  140),
+        Mat(L"Aramid",     60),
+        Mat(L"Mahogany",  100),
+        Mat(L"Bronze",    120),
+        Mat(L"Lead",       90),
+        Mat(L"Spiky Silk", 20),
+        Mat(L"Black Silk", 20),
+        Mat(L"Pearl",     200),
+        Mat(L"Polisher",   10),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        Tool(L"Sawdust", 1),
+        });
+    AddRecipe(L"Saw Sword", {
+        Mat(L"Titanium",  150),
+        Mat(L"Aramid",     70),
+        Mat(L"Mahogany",  110),
+        Mat(L"Bronze",    170),
+        Mat(L"Lead",      140),
+        Mat(L"Spiky Silk", 70),
+        Mat(L"Black Silk", 70),
+        Mat(L"Pearl",     250),
+        Mat(L"Polisher",   20),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        Tool(L"Sawdust", 1),
+        });
+    AddRecipe(L"Paladin Golden Sword", {
+        Mat(L"Titanium",  180),
+        Mat(L"Aramid",    100),
+        Mat(L"Mahogany",  140),
+        Mat(L"Bronze",    170),
+        Mat(L"Lead",      150),
+        Mat(L"Black Silk",100),
+        Mat(L"Silk Thread",100),
+        Mat(L"Gold Bar",   140),
+        Mat(L"Pearl",     270),
+        Mat(L"Polisher",   35),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        Tool(L"Sawdust", 1),
+        });
+    AddRecipe(L"Guardian's Sword", {
+        Mat(L"Cobalt",    260),
+        Mat(L"Ginkgo Tree Fossil",    240),
+        Mat(L"Titanium",  160),
+        Mat(L"Mahogany",  120),
+        Mat(L"Bronze",    220),
+        Mat(L"Black Silk",180),
+        Mat(L"Silk Thread",120),
+        Mat(L"Gold Bar",   160),
+        Mat(L"Pearl",     300),
+        Mat(L"Polisher",   55),
+        Tool(L"Anvil", 1),
+        Tool(L"Hammer", 1),
+        Tool(L"Saw", 1),
+        Tool(L"Sawdust", 1),
+        });
+}
