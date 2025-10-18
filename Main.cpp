@@ -27,6 +27,8 @@
 #include <unordered_set>
 #include <map>
 #include <set>
+#include "icon_logging.h"
+#include "icon_assets.h"
 
 #pragma comment(lib, "Comctl32.lib")
 #pragma comment(lib, "dwmapi.lib")
@@ -137,36 +139,25 @@ static void EnsureImageList(HWND hTree) {
 }
 
 // Load app icon helper (tries embedded resource IDI_MANUTOOL then common paths)
-static HICON LoadAppIconFromAssets(HINSTANCE hInst, const wchar_t* icoName, int cx, int cy)
-{
-#ifdef IDI_MANUTOOL
-    HICON hRes = (HICON)LoadImageW(hInst, MAKEINTRESOURCEW(IDI_MANUTOOL), IMAGE_ICON, cx, cy, LR_DEFAULTCOLOR);
-    if (hRes) return hRes;
-#endif
-
-    std::wstring exeDir = GetExeDir();
-    std::vector<std::wstring> candidates;
-    if (!exeDir.empty()) {
-        candidates.push_back(exeDir + L"\\Assets\\Icons\\crafting\\" + icoName);
-        candidates.push_back(exeDir + L"\\assets\\icons\\" + icoName);
-    }
-    candidates.push_back(std::wstring(L"Assets\\Icons\\crafting\\") + icoName);
-    candidates.push_back(std::wstring(L"assets\\icons\\") + icoName);
-
-    for (const auto& full : candidates) {
-        if (GetFileAttributesW(full.c_str()) == INVALID_FILE_ATTRIBUTES) continue;
-        HICON h = (HICON)LoadImageW(nullptr, full.c_str(), IMAGE_ICON, cx, cy, LR_LOADFROMFILE | LR_DEFAULTSIZE | LR_SHARED);
-        if (h) return h;
-    }
-    return nullptr;
-}
-
-// Load individual item icons (cached)
 static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstring& category)
 {
-    if (!g_hImgList) return -1;
+    if (!g_hImgList) {
+        UILogW(L"LoadAndCacheIconForItem: g_hImgList is NULL for item '" + itemName + L"'");
+        return -1;
+    }
 
-    // Prepare base search paths (working dir relative + exe dir variants)
+    // small local helper to append debug lines to the existing data/icon_load.log
+    auto logLoad = [&](const std::wstring& msg) {
+        try {
+            std::wofstream of(L"data\\icon_load.log", std::ios::app);
+            of << msg << L"\n";
+        }
+        catch (...) {}
+        };
+
+    UILogW(L"LoadAndCacheIconForItem START: '" + itemName + L"' category='" + category + L"'");
+    logLoad(L"--- LoadAndCacheIconForItem: '" + itemName + L"' category='" + category + L"'");
+
     std::wstring exeDir = GetExeDir();
     std::wstring relCrafting = L"Assets\\Icons\\crafting\\";
     std::wstring basePaths[4];
@@ -177,10 +168,8 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
         basePaths[3] = exeDir + L"\\" + relCrafting + category + L"\\";
     }
 
-    // Build candidate filenames (literal-preserving + normalized variants)
+    // Build candidate filenames
     std::vector<std::wstring> candidateNames;
-
-    // literal-preserving variants
     std::wstring noSpaces = itemName;
     noSpaces.erase(std::remove(noSpaces.begin(), noSpaces.end(), L' '), noSpaces.end());
     candidateNames.push_back(noSpaces + L".ico");
@@ -199,83 +188,115 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
     removedBracket.erase(std::remove(removedBracket.begin(), removedBracket.end(), L' '), removedBracket.end());
     candidateNames.push_back(removedBracket + L".ico");
 
-    // canonical variants produced by MakeFileVariant
     for (int variant = 1; variant <= 4; ++variant) {
         std::wstring candidateBase = MakeFileVariant(itemName, variant);
         if (!candidateBase.empty()) candidateNames.push_back(candidateBase + L".ico");
     }
 
-    // Remove duplicates while preserving order
-    std::vector<std::wstring> uniqCandidates;
-    std::unordered_set<std::wstring> seen; // <-- ensure <unordered_set> is included at top of file
+    // Deduplicate preserving order
+    std::vector<std::wstring> uniq;
+    std::unordered_set<std::wstring> seen;
     for (const auto& c : candidateNames) {
-        if (seen.insert(c).second) uniqCandidates.push_back(c);
+        if (seen.insert(c).second) uniq.push_back(c);
     }
-    candidateNames.swap(uniqCandidates);
+    candidateNames.swap(uniq);
 
-    // 1) Try disk-based loading for each candidate name in each base path
+    // 1) Try disk-based loading
     for (const auto& fname : candidateNames) {
         for (const auto& p : basePaths) {
             if (p.empty()) continue;
             std::wstring full = p + fname;
-            // Check cache by the exact full path
+            logLoad(L"Trying file: " + full);
             auto it = g_iconIndexMap.find(full);
-            if (it != g_iconIndexMap.end()) return it->second;
-
-            // File exists?
-            if (GetFileAttributesW(full.c_str()) == INVALID_FILE_ATTRIBUTES) continue;
-
-            // Try load from file
+            if (it != g_iconIndexMap.end()) {
+                logLoad(L"  -> cached index: " + std::to_wstring(it->second));
+                UILogW(L"Cache hit for file: " + full + L" index=" + std::to_wstring(it->second));
+                return it->second;
+            }
+            if (GetFileAttributesW(full.c_str()) == INVALID_FILE_ATTRIBUTES) {
+                logLoad(L"  -> file not found");
+                continue;
+            }
             HICON hIcon = (HICON)LoadImageW(nullptr, full.c_str(), IMAGE_ICON, 24, 24, LR_LOADFROMFILE | LR_DEFAULTSIZE | LR_SHARED);
-            if (!hIcon) continue;
-
+            if (!hIcon) {
+                logLoad(L"  -> LoadImageW from file failed");
+                UILogW(L"LoadImageW failed from file: " + full);
+                continue;
+            }
             int idx = ImageList_AddIcon(g_hImgList, hIcon);
             g_iconIndexMap.emplace(full, idx);
+            logLoad(L"  -> loaded from file, index=" + std::to_wstring(idx));
+            UILogW(L"Loaded icon from file: " + full + L" index=" + std::to_wstring(idx));
+
+            // UI-level logging: dump image-list state after adding
+            LogImageListInfo(g_hImgList, L"AfterAdd(" + std::to_wstring(idx) + L")");
+
             return idx;
         }
     }
 
-    // 2) Disk lookup failed - try embedded resources.
-    // Resource generator uses names like: icon_<SafeBasename> (safe: non-alnum -> underscore, prefixed with "icon_")
+    // 2) Try embedded resources (generated names like "icon_<SafeName>")
     HINSTANCE hInst = GetModuleHandleW(nullptr);
     for (const auto& fname : candidateNames) {
-        // derive base filename (strip any path components; candidateNames are basenames already but be defensive)
         std::wstring base = fname;
         size_t slash = base.find_last_of(L"/\\");
         if (slash != std::wstring::npos) base = base.substr(slash + 1);
-
-        // remove extension
         size_t dot = base.find_last_of(L'.');
         std::wstring nameNoExt = (dot == std::wstring::npos) ? base : base.substr(0, dot);
 
-        // sanitize to match generator: replace non-alnum with '_' and prefix "icon_"
         std::wstring resName = L"icon_";
         for (wchar_t ch : nameNoExt) {
             if (iswalnum(ch) || ch == L'_') resName.push_back(ch);
             else resName.push_back(L'_');
         }
 
-        // Check cache by resource key
         std::wstring resKey = L"resource:" + resName;
-        auto itRes = g_iconIndexMap.find(resKey);
-        if (itRes != g_iconIndexMap.end()) return itRes->second;
-
-        // Try load embedded ICON resource by string name
-        HICON hIcon = (HICON)LoadImageW(hInst, resName.c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
-        if (!hIcon) {
-            // also try with extension appended to resource name just in case generator used that form
-            std::wstring resWithExt = resName + L".ico";
-            hIcon = (HICON)LoadImageW(hInst, resWithExt.c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
+        if (g_iconIndexMap.find(resKey) != g_iconIndexMap.end()) {
+            UILogW(L"Found cached resource key: " + resKey + L" idx=" + std::to_wstring(g_iconIndexMap[resKey]));
+            logLoad(L"  -> cached resource index: " + std::to_wstring(g_iconIndexMap[resKey]));
+            return g_iconIndexMap[resKey];
         }
 
-        if (hIcon) {
-            int idx = ImageList_AddIcon(g_hImgList, hIcon);
-            g_iconIndexMap.emplace(resKey, idx);
-            return idx;
+        logLoad(L"Trying resource name: " + resName);
+        UILogW(L"Trying resource: " + resName + L" (derived from " + fname + L")");
+
+        HRSRC hResGroup = FindResourceW(hInst, resName.c_str(), RT_GROUP_ICON);
+        if (!hResGroup) {
+            HRSRC hResGroup2 = FindResourceW(hInst, (resName + L".ico").c_str(), RT_GROUP_ICON);
+            if (hResGroup2) hResGroup = hResGroup2;
+            else {
+                HRSRC hResRaw = FindResourceW(hInst, nameNoExt.c_str(), RT_GROUP_ICON);
+                if (hResRaw) hResGroup = hResRaw;
+            }
+        }
+
+        if (hResGroup) {
+            logLoad(L"  -> found RT_GROUP_ICON resource: " + resName);
+            HICON hIcon = (HICON)LoadImageW(hInst, resName.c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
+            if (!hIcon) {
+                hIcon = (HICON)LoadImageW(hInst, (resName + L".ico").c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
+            }
+            if (hIcon) {
+                int idx = ImageList_AddIcon(g_hImgList, hIcon);
+                g_iconIndexMap.emplace(resKey, idx);
+                logLoad(L"  -> loaded from resource, idx=" + std::to_wstring(idx));
+                UILogW(L"Loaded icon from resource: " + resName + L" index=" + std::to_wstring(idx));
+                LogImageListInfo(g_hImgList, L"AfterAddResource(" + std::to_wstring(idx) + L")");
+                return idx;
+            }
+            else {
+                logLoad(L"  -> LoadImageW on resource returned NULL");
+                UILogW(L"LoadImageW returned NULL for resource: " + resName);
+            }
+        }
+        else {
+            logLoad(L"  -> resource not found: " + resName);
+            UILogW(L"Resource not found: " + resName);
         }
     }
 
-    // 3) Nothing found
+    logLoad(L"No icon found for: " + itemName);
+    UILogW(L"No icon found for: " + itemName);
     return -1;
 }
 
