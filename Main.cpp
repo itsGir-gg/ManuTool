@@ -24,6 +24,7 @@
 #include <sstream>
 #include <algorithm>
 #include <unordered_map>
+#include <unordered_set>
 #include <map>
 #include <set>
 
@@ -164,9 +165,11 @@ static HICON LoadAppIconFromAssets(HINSTANCE hInst, const wchar_t* icoName, int 
 static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstring& category)
 {
     if (!g_hImgList) return -1;
+
+    // Prepare base search paths (working dir relative + exe dir variants)
     std::wstring exeDir = GetExeDir();
-    std::wstring basePaths[4];
     std::wstring relCrafting = L"Assets\\Icons\\crafting\\";
+    std::wstring basePaths[4];
     basePaths[0] = relCrafting;
     basePaths[1] = relCrafting + category + L"\\";
     if (!exeDir.empty()) {
@@ -174,51 +177,105 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
         basePaths[3] = exeDir + L"\\" + relCrafting + category + L"\\";
     }
 
-    std::vector<std::wstring> literalCandidates;
-    std::wstring noSpaces = itemName; noSpaces.erase(std::remove(noSpaces.begin(), noSpaces.end(), L' '), noSpaces.end());
-    literalCandidates.push_back(noSpaces + L".ico");
-    std::wstring underscores = itemName; for (auto& c : underscores) if (c == L' ') c = L'_';
-    literalCandidates.push_back(underscores + L".ico");
-    std::wstring lowUnd = underscores; std::transform(lowUnd.begin(), lowUnd.end(), lowUnd.begin(), ::towlower);
-    literalCandidates.push_back(lowUnd + L".ico");
-    std::wstring removedBracket = itemName; removedBracket.erase(std::remove(removedBracket.begin(), removedBracket.end(), L'['), removedBracket.end());
+    // Build candidate filenames (literal-preserving + normalized variants)
+    std::vector<std::wstring> candidateNames;
+
+    // literal-preserving variants
+    std::wstring noSpaces = itemName;
+    noSpaces.erase(std::remove(noSpaces.begin(), noSpaces.end(), L' '), noSpaces.end());
+    candidateNames.push_back(noSpaces + L".ico");
+
+    std::wstring underscores = itemName;
+    for (auto& c : underscores) if (c == L' ') c = L'_';
+    candidateNames.push_back(underscores + L".ico");
+
+    std::wstring lowUnd = underscores;
+    std::transform(lowUnd.begin(), lowUnd.end(), lowUnd.begin(), ::towlower);
+    candidateNames.push_back(lowUnd + L".ico");
+
+    std::wstring removedBracket = itemName;
+    removedBracket.erase(std::remove(removedBracket.begin(), removedBracket.end(), L'['), removedBracket.end());
     removedBracket.erase(std::remove(removedBracket.begin(), removedBracket.end(), L']'), removedBracket.end());
     removedBracket.erase(std::remove(removedBracket.begin(), removedBracket.end(), L' '), removedBracket.end());
-    literalCandidates.push_back(removedBracket + L".ico");
+    candidateNames.push_back(removedBracket + L".ico");
 
-    for (const auto& fname : literalCandidates) {
+    // canonical variants produced by MakeFileVariant
+    for (int variant = 1; variant <= 4; ++variant) {
+        std::wstring candidateBase = MakeFileVariant(itemName, variant);
+        if (!candidateBase.empty()) candidateNames.push_back(candidateBase + L".ico");
+    }
+
+    // Remove duplicates while preserving order
+    std::vector<std::wstring> uniqCandidates;
+    std::unordered_set<std::wstring> seen; // <-- ensure <unordered_set> is included at top of file
+    for (const auto& c : candidateNames) {
+        if (seen.insert(c).second) uniqCandidates.push_back(c);
+    }
+    candidateNames.swap(uniqCandidates);
+
+    // 1) Try disk-based loading for each candidate name in each base path
+    for (const auto& fname : candidateNames) {
         for (const auto& p : basePaths) {
             if (p.empty()) continue;
             std::wstring full = p + fname;
+            // Check cache by the exact full path
             auto it = g_iconIndexMap.find(full);
             if (it != g_iconIndexMap.end()) return it->second;
+
+            // File exists?
             if (GetFileAttributesW(full.c_str()) == INVALID_FILE_ATTRIBUTES) continue;
-            HICON h = (HICON)LoadImageW(nullptr, full.c_str(), IMAGE_ICON, 24, 24, LR_LOADFROMFILE | LR_DEFAULTSIZE | LR_SHARED);
-            if (!h) continue;
-            int idx = ImageList_AddIcon(g_hImgList, h);
+
+            // Try load from file
+            HICON hIcon = (HICON)LoadImageW(nullptr, full.c_str(), IMAGE_ICON, 24, 24, LR_LOADFROMFILE | LR_DEFAULTSIZE | LR_SHARED);
+            if (!hIcon) continue;
+
+            int idx = ImageList_AddIcon(g_hImgList, hIcon);
             g_iconIndexMap.emplace(full, idx);
             return idx;
         }
     }
 
-    for (int variant = 1; variant <= 4; ++variant) {
-        std::wstring candidateBase = MakeFileVariant(itemName, variant);
-        if (candidateBase.empty()) continue;
-        std::wstring filename = candidateBase + L".ico";
-        for (const auto& p : basePaths) {
-            if (p.empty()) continue;
-            std::wstring full = p + filename;
-            auto it = g_iconIndexMap.find(full);
-            if (it != g_iconIndexMap.end()) return it->second;
-            if (GetFileAttributesW(full.c_str()) == INVALID_FILE_ATTRIBUTES) continue;
-            HICON h = (HICON)LoadImageW(nullptr, full.c_str(), IMAGE_ICON, 24, 24, LR_LOADFROMFILE | LR_DEFAULTSIZE | LR_SHARED);
-            if (!h) continue;
-            int idx = ImageList_AddIcon(g_hImgList, h);
-            g_iconIndexMap.emplace(full, idx);
+    // 2) Disk lookup failed - try embedded resources.
+    // Resource generator uses names like: icon_<SafeBasename> (safe: non-alnum -> underscore, prefixed with "icon_")
+    HINSTANCE hInst = GetModuleHandleW(nullptr);
+    for (const auto& fname : candidateNames) {
+        // derive base filename (strip any path components; candidateNames are basenames already but be defensive)
+        std::wstring base = fname;
+        size_t slash = base.find_last_of(L"/\\");
+        if (slash != std::wstring::npos) base = base.substr(slash + 1);
+
+        // remove extension
+        size_t dot = base.find_last_of(L'.');
+        std::wstring nameNoExt = (dot == std::wstring::npos) ? base : base.substr(0, dot);
+
+        // sanitize to match generator: replace non-alnum with '_' and prefix "icon_"
+        std::wstring resName = L"icon_";
+        for (wchar_t ch : nameNoExt) {
+            if (iswalnum(ch) || ch == L'_') resName.push_back(ch);
+            else resName.push_back(L'_');
+        }
+
+        // Check cache by resource key
+        std::wstring resKey = L"resource:" + resName;
+        auto itRes = g_iconIndexMap.find(resKey);
+        if (itRes != g_iconIndexMap.end()) return itRes->second;
+
+        // Try load embedded ICON resource by string name
+        HICON hIcon = (HICON)LoadImageW(hInst, resName.c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
+        if (!hIcon) {
+            // also try with extension appended to resource name just in case generator used that form
+            std::wstring resWithExt = resName + L".ico";
+            hIcon = (HICON)LoadImageW(hInst, resWithExt.c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
+        }
+
+        if (hIcon) {
+            int idx = ImageList_AddIcon(g_hImgList, hIcon);
+            g_iconIndexMap.emplace(resKey, idx);
             return idx;
         }
     }
 
+    // 3) Nothing found
     return -1;
 }
 
