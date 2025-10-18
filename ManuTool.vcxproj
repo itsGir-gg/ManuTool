@@ -130,7 +130,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="ManuTool.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ManuTool.rc" />
