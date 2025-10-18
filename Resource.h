@@ -12,6 +12,8 @@
 #define IDI_MANUTOOL			107
 #define IDI_SMALL				108
 #define IDC_MANUTOOL			109
+#define IDR_RECIPES				201
+#define IDR_CATEGORIES			202	
 #define IDC_MYICON				2
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1

@@ -1,0 +1,384 @@
+Armor	Weak Leather Armor
+Armor	Strong Leather Armor
+Armor	Wooden Armor
+Armor	Bone Armor
+Armor	Bronze Armor
+Armor	Iron Armor
+Armor	Moonlight Armor
+Armor	Metal Armor
+Armor	Taebaek Armor
+Armor	White Plate Armor
+Armor	Black Carabinieer Armor
+Armor	Frozen Armor
+Armor	Flame Armor
+Armor	Dragon Knight Armor
+Armor	Abel Knight Armor
+Armor	Dark Knight's Armor
+Armor	Vampire Armor
+Armor	Cuirassier Armor
+Axe	Stone Axe
+Axe	Bronze Axe
+Axe	Steel Axe
+Axe	Silver Axe
+Axe	Golden Axe
+Axe	Morningstar
+Axe	Battle Axe
+Axe	Golden Hammer
+Axe	Great Silver Axe
+Axe	War Hammer
+Axe	Great Golden Axe
+Axe	Angel's Axe
+Axe	Taebaek Axe
+Axe	Iron Soul
+Axe	Spirit Axe
+Axe	Earthquaker
+Axe	Red Moon Axe
+Axe	Paladin Golden Axe
+Belt	Weak Leather Belt
+Belt	Strong Leather Belt
+Belt	Wooden Belt
+Belt	Bone Belt
+Belt	Bronze Belt
+Belt	Heavy Metal Belt
+Belt	Moonshine Belt
+Belt	Sturdy Metal Belt
+Belt	Taebaek Belt
+Belt	Comet Belt
+Belt	Black Plate Belt
+Belt	Frozen Belt
+Belt	Flame Belt
+Belt	Dragon Knight Belt
+Belt	Abel Knight Belt
+Belt	Dark Knight's Belt
+Belt	Vampire Belt
+Belt	Cuirassier Belt
+Bow	Wooden Bow
+Bow	Bamboo Bow
+Bow	Iron Bow
+Bow	Steel Bow
+Bow	Long Bow
+Bow	Light Crossbow
+Bow	Hunter's Bow
+Bow	Heavy Crossbow
+Bow	Robin Hood
+Bow	Skill Crossbow
+Bow	Elfin Bow
+Bow	Composite Bow
+Bow	Taebaek Bow
+Bow	Arbalest
+Bow	Thunderbolt Bow
+Bow	Dragon Claw
+Bow	Nymph's Bow
+Bow	Paladin Flash Bow
+Cane	Bamboo Cane
+Cane	Apprentice Cane
+Cane	Wizard Cane
+Cane	Fisher's Cane
+Cane	Master Cane
+Cane	Snake Cane
+Cane	Ivory Cane
+Cane	Wing Cane
+Cane	Hermit's Cane
+Cane	Star Cane
+Cane	Spirit Cane
+Cane	Golden Spear Cane
+Cane	Taebaek Cane
+Cane	Orchestra Tact
+Cane	Fairy Cane
+Cane	Heaven's Judgement
+Cane	Undine Cane
+Cane	Paladin Moonlight Cane
+Cloak	Amethyst Cloak[Avatar]
+Cloak	School Bag[Avatar]
+Cloak	Cheering Cloak[Avatar]
+Cloak	Angel Wings[Avatar]
+Cloak	Adventurer Cloak[Avatar]
+Cloak	Devil Wings[Avatar]
+Cloak	Goblin King's Cloak[Avatar]
+Cloak	Frozen Cape[Avatar]
+Cloak	Flame Cape[Avatar]
+Cloak	Dragon Knight Wing[Avatar]
+Cloak	Abel Knights Cape[Avatar]
+Cloak	Vampire Cloak[Avatar]
+Cloak	Archangel's Wing[Avatar]
+Cloak	Satan's Wing[Avatar]
+Cloak	Dark Knight Cloak[Avatar]
+Costume	Traveler Suit[Avatar]
+Costume	School Uniform[Avatar]
+Costume	Cheering Suit[Avatar]
+Costume	Craftsman Suit[Avatar]
+Costume	Adventurer Suit[Avatar]
+Crystal	Ruby Crystal[F]
+Crystal	Topaz Crystal[F]
+Crystal	Amethyst Crystal[F]
+Crystal	Diamond Crystal[F]
+Crystal	Pearl Crystal[F]
+Crystal	Sapphire Crystal[F]
+Crystal	Ruby Crystal[E]
+Crystal	Topaz Crystal[E]
+Crystal	Amethyst Crystal[E]
+Crystal	Diamond Crystal[E]
+Crystal	Pearl Crystal[E]
+Crystal	Sapphire Crystal[E]
+Crystal	Ruby Crystal[D]
+Crystal	Topaz Crystal[D]
+Crystal	Amethyst Crystal[D]
+Crystal	Diamond Crystal[D]
+Crystal	Pearl Crystal[D]
+Crystal	Sapphire Crystal[D]
+Crystal	Ruby Crystal[C]
+Crystal	Topaz Crystal[C]
+Crystal	Amethyst Crystal[C]
+Crystal	Diamond Crystal[C]
+Crystal	Pearl Crystal[C]
+Crystal	Sapphire Crystal[C]
+Crystal	Ruby Crystal[B]
+Crystal	Topaz Crystal[B]
+Crystal	Amethyst Crystal[B]
+Crystal	Diamond Crystal[B]
+Crystal	Pearl Crystal[B]
+Crystal	Sapphire Crystal[B]
+Crystal	Ruby Crystal[A]
+Crystal	Topaz Crystal[A]
+Crystal	Amethyst Crystal[A]
+Crystal	Diamond Crystal[A]
+Crystal	Pearl Crystal[A]
+Crystal	Sapphire Crystal[A]
+Crystal	Ruby Crystal[S1]
+Crystal	Topaz Crystal[S1]
+Crystal	Amethyst Crystal[S1]
+Crystal	Diamond Crystal[S1]
+Crystal	Pearl Crystal[S1]
+Crystal	Sapphire Crystal[S1]
+Crystal	Ruby Crystal[S2]
+Crystal	Topaz Crystal[S2]
+Crystal	Amethyst Crystal[S2]
+Crystal	Diamond Crystal[S2]
+Crystal	Pearl Crystal[S2]
+Crystal	Sapphire Crystal[S2]
+FishingTool	Fishing Rod
+FishingTool	Fisherman's Rod
+Food	Half Moon Dumpling
+Food	Skewers
+Food	Rice Ball
+Food	Bread
+Food	Meat Dumpling
+Food	Moon Cake
+Food	Sausage
+Food	Rice Cake Soup
+Food	Beef Soup
+Food	Abalone Congee
+Food	Japanese Dumpling
+Food	Beef Rib
+Food	Seafood Hotpot
+Food	Starch Noodle
+Food	Shabu Shabu
+Food	Chicken Soup
+Food	Crucian Carp Spicy Soup
+Food	Catfish Spicy Soup
+Food	Carp Soup
+Food	Pancake
+Food	Eel BBQ
+Food	Hard Boiled Mackerel
+Food	Feed A
+Food	Feed B
+Food	Feed C
+Food	Easy Feed
+Gun	Rifle
+Gun	Stylish Rifle
+Gun	Warrior's Gun
+Gun	Meteorite Gun
+Gun	Thunderbolt Gun
+Gun	Musketeer's Gun
+Gun	Dragon Shotgun
+Gun	Grenade Launcher
+Gun	Earthquake Launcher
+Gun	Burst Shotgun
+Gun	Dragon Rifle
+Gun	Sniper's Rifle
+Gun	Taebaek Cannon
+Gun	Hellfire
+Gun	Heavy Wind Gun
+Gun	Desperado
+Gun	Heart Gun
+Gun	Paladin Golden Scope Gun
+Hat	Traveler Hat[Avatar]
+Hat	School Hat[Avatar]
+Hat	Cheering Hat[Avatar]
+Hat	Craftsman Hat[Avatar]
+Hat	Adventurer Hat[Avatar]
+Ironware	Hammer
+Ironware	Anvil
+Ironware	Saw
+Ironware	Scissor
+Ironware	Needle
+Ironware	Gimlet
+Ironware	Flat Iron
+Ironware	Iron Pot
+Ironware	Sawdust
+Ironware	Sickle
+Ironware	Hoe
+Ironware	Composition Tool
+Ironware	Cutting Tool
+Ironware	Craft Shelf
+Medicine	Weak HP Potion
+Medicine	Mediocre HP Potion
+Medicine	Average HP Potion
+Medicine	Strong HP Potion
+Medicine	Super HP Potion
+Medicine	Weak MP Potion
+Medicine	Average MP Potion
+Medicine	Strong MP Potion
+Medicine	Super MP Potion
+Medicine	Digestive Pill
+Medicine	Stomach Pill
+Medicine	Anti-Cancer Pill
+Medicine	Glaze
+Medicine	Stinky Soup(60 seconds)
+Medicine	Gold Soup
+Medicine	Polisher
+Medicine	Bleach
+Medicine	Leather Protector
+Medicine	Lubricant
+Medicine	Hypertension Pill
+Medicine	Cold Pill
+Medicine	Headache Pill
+Medicine	Strange HP Potion for Summons
+Medicine	Mysterious HP Potion for Summons
+Medicine	MP Potion for Summoned Monster
+Medicine	Antidotes
+Necklace	Apprentice Knight Necklace
+Necklace	Apprentice Weapon Artisan Necklace
+Necklace	Apprentice Armor Artisan Necklace
+Necklace	Apprenticeship Maker's Necklace
+Necklace	Apprenticeship Technician's Necklace
+Necklace	Apprenticeship Cutter's Necklace
+Necklace	Jewel Novice's Necklace
+Necklace	Other Novice Technician's Necklace
+Necklace	Expert Mercenary's Necklace
+Necklace	Expert Weapon Master's Necklace
+Necklace	Expert Armor Master's Necklace
+Necklace	Expert Manufacturer's Necklace
+Necklace	Expert Technician's Necklace
+Necklace	Expert Cutter's Necklace
+Necklace	Expert Jewel Maker's Necklace
+Necklace	Other Skillful Technician's Necklace
+Necklace	Knights Leader's Necklace
+Necklace	Dwarf Weapon Master's Necklace
+Necklace	Dwarf Armor Master's Necklace
+Necklace	Manufacturing Master's Necklace
+Necklace	Technic Master's Necklace
+Necklace	Cutting Master's Necklace
+Necklace	Jewel Master's Necklace
+Necklace	Other Master Technician's Necklace
+Necklace	Frozen Necklace
+Necklace	Flame Necklace
+Necklace	Dragon Knight Necklace
+Necklace	Abel Necklace
+Necklace	Vampire Necklace[Avatar]
+Necklace	Dark Knight Necklace
+Other	Arrow
+Other	Bullet
+Pottery	Bowl
+Pottery	Medicine Bowl
+Pottery	Pottery
+Pottery	Plate
+Pottery	Grinding Stone
+Pottery	Mortar
+Pottery	Brass Crafting Dish
+Ring	Ring of Oger
+Ring	Ring of Intelligence
+Ring	Ring of Thunder
+Ring	Ring of Stamina
+Ring	Rucky Ring[Avatar]
+Ring	Ring of Knights
+Ring	Ring of Magicians
+Ring	Ring of Lightning
+Ring	Ring of Angel
+Ring	Ring of Abundance
+Ring	Ring of Destroyer
+Ring	Ring of Philosopher
+Ring	Ring of Storm
+Ring	Ring of Guardian
+Ring	Ring of Master
+Ring	Frozen Ring
+Ring	Flame Ring
+Ring	Dragon Knight Ring
+Ring	Abel Ring
+Ring	Vampire Ring[Avatar]
+Ring	Dark Knight Ring[Avartar]
+Shoe	JP Straw Shoes
+Shoe	Straw Shoes
+Shoe	Round Shoes
+Shoe	Wooden Shoes
+Shoe	Leather Shoes
+Shoe	Wooden Boots
+Shoe	Aquatic Boots
+Shoe	Rapid Shoes
+Shoe	Glass Shoes
+Shoe	Black Shoes
+Shoe	Green Shoes
+Shoe	Red Shoes
+Shoe	Brown Shoes
+Shoe	Frozen Shoes
+Shoe	Flame Shoes
+Shoe	Dragon Knight Shoes
+Shoe	Abel Knight Shoe
+Shoe	Vampire Shoes
+Spear	Bamboo Spear
+Spear	Apprentice Spear
+Spear	Half-Moon Spear
+Spear	Moon Spear
+Spear	Dragon Spear
+Spear	Barchha
+Spear	Iron-Fist
+Spear	Wing Spear
+Spear	Grand Scythe
+Spear	Scorpion
+Spear	Moon Spirit Spear
+Spear	Grand Screw Spear
+Spear	Bardiche
+Spear	Halberd
+Spear	Lightning Spear
+Spear	Holy Lance
+Spear	Unisus Spear
+Spear	Paladin Cross Spear
+Stationery	Ink Stick
+Stationery	Ink Stone
+Stationery	Writing Brush
+Sword	Bamboo Sword
+Sword	Bronze Sword
+Sword	Sabre
+Sword	Steel Sword
+Sword	Golden Sword
+Sword	Gladius
+Sword	Damascus
+Sword	Great Tiger Sword
+Sword	Japanese Sword
+Sword	Katzbalger
+Sword	Dragon Knight Sword
+Sword	Deathblow Sword
+Sword	Bastard Sword
+Sword	Zweihander
+Sword	Iron Slasher
+Sword	Platina Sword
+Sword	Saw Sword
+Sword	Paladin Golden Sword
+Sword	Guardian's Sword
+Helmet	Weak Leather Helmet
+Helmet	Strong Leather Helmet
+Helmet	Wooden Helmet
+Helmet	Bone Helmet
+Helmet	Bronze Helmet
+Helmet	Iron Helmet
+Helmet	Moonlight Helmet
+Helmet	Metal Helmet
+Helmet	Taebaek Helmet
+Helmet	White Plate Helm
+Helmet	Black Head Guard
+Helmet	Frozen Helmet
+Helmet	Flame Helmet
+Helmet	Dragon Knight Helmet
+Helmet	Abel Knight Helmet
+Helmet	Vampire Helmet
+Helmet	Cuirassier Helmet

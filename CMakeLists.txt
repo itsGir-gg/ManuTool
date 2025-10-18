@@ -1,4 +1,3 @@
- url=https://github.com/itsGir-gg/goonzu-manutool/blob/main/CMakeLists.txt
 cmake_minimum_required(VERSION 3.15)
 project(ManuToolMinimal LANGUAGES CXX)
 
