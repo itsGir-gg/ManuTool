@@ -27,9 +27,6 @@
     <ClInclude Include="ManuTool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Icon_logging.h">
       <Filter>Header Files</Filter>
     </ClInclude>

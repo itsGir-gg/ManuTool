@@ -1383,7 +1383,7 @@ Input: T|Flat Iron|1
 Input: T|Cutting Tool|1
 
 ===RECIPE===
-Name: Dragon Knight's Wing[Avatar]
+Name: Dragon Knight Wing[Avatar]
 Yield: 1
 Input: M|Blessing Stone|15
 Input: M|Spiky Silk|35
@@ -4229,7 +4229,7 @@ Input: M|Silk|2
 Input: M|Copper|4
 
 ===RECIPE===
-Name: Half-moon Spear
+Name: Half-Moon Spear
 Yield: 1
 Input: M|Oak|5
 Input: M|Cowhide|4
@@ -4277,7 +4277,7 @@ Input: M|Amber|2
 Input: T|Anvil|1
 
 ===RECIPE===
-Name: Iron-fist
+Name: Iron-Fist
 Yield: 1
 Input: M|Charcoal|5
 Input: M|Cowhide|9
@@ -4308,7 +4308,7 @@ Input: T|Anvil|1
 ===RECIPE===
 Name: Grand Scythe
 Yield: 1
-Input: S|Iron-fist|1
+Input: S|Iron-Fist|1
 Input: M|Charcoal|9
 Input: M|Cowhide|15
 Input: M|Silk|15

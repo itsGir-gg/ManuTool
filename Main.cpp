@@ -147,16 +147,13 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
     }
 
     // small local helper to append debug lines to the existing data/icon_load.log
-    auto logLoad = [&](const std::wstring& msg) {
-        try {
-            std::wofstream of(L"data\\icon_load.log", std::ios::app);
-            of << msg << L"\n";
-        }
-        catch (...) {}
+    // Disabled to avoid costly file I/O during startup.
+    auto logLoad = [&](const std::wstring& /*msg*/) {
+        // logging disabled
         };
 
     UILogW(L"LoadAndCacheIconForItem START: '" + itemName + L"' category='" + category + L"'");
-    logLoad(L"--- LoadAndCacheIconForItem: '" + itemName + L"' category='" + category + L"'");
+    //logLoad(L"--- LoadAndCacheIconForItem: '" + itemName + L"' category='" + category + L"'");
 
     std::wstring exeDir = GetExeDir();
     std::wstring relCrafting = L"Assets\\Icons\\crafting\\";
@@ -193,6 +190,21 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
         if (!candidateBase.empty()) candidateNames.push_back(candidateBase + L".ico");
     }
 
+    // Also add a variant that removes punctuation entirely (useful for names like "Half-Moon" or "Iron-Fist")
+    {
+        std::wstring removedPunct;
+        for (wchar_t ch : itemName) {
+            if (iswalnum(ch)) removedPunct.push_back(ch);
+            // skip spaces and punctuation entirely
+        }
+        if (!removedPunct.empty()) {
+            candidateNames.push_back(removedPunct + L".ico");
+            std::wstring lowerRemoved = removedPunct;
+            std::transform(lowerRemoved.begin(), lowerRemoved.end(), lowerRemoved.begin(), ::towlower);
+            candidateNames.push_back(lowerRemoved + L".ico");
+        }
+    }
+
     // Deduplicate preserving order
     std::vector<std::wstring> uniq;
     std::unordered_set<std::wstring> seen;
@@ -201,35 +213,35 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
     }
     candidateNames.swap(uniq);
 
-    // 1) Try disk-based loading
+    // 1) Try disk-based loading (silent)
     for (const auto& fname : candidateNames) {
         for (const auto& p : basePaths) {
             if (p.empty()) continue;
             std::wstring full = p + fname;
-            logLoad(L"Trying file: " + full);
+            // logLoad(L"Trying file: " + full);
             auto it = g_iconIndexMap.find(full);
             if (it != g_iconIndexMap.end()) {
-                logLoad(L"  -> cached index: " + std::to_wstring(it->second));
+                //logLoad(L"  -> cached index: " + std::to_wstring(it->second));
                 UILogW(L"Cache hit for file: " + full + L" index=" + std::to_wstring(it->second));
                 return it->second;
             }
             if (GetFileAttributesW(full.c_str()) == INVALID_FILE_ATTRIBUTES) {
-                logLoad(L"  -> file not found");
+                //logLoad(L"  -> file not found");
                 continue;
             }
             HICON hIcon = (HICON)LoadImageW(nullptr, full.c_str(), IMAGE_ICON, 24, 24, LR_LOADFROMFILE | LR_DEFAULTSIZE | LR_SHARED);
             if (!hIcon) {
-                logLoad(L"  -> LoadImageW from file failed");
+                //logLoad(L"  -> LoadImageW from file failed");
                 UILogW(L"LoadImageW failed from file: " + full);
                 continue;
             }
             int idx = ImageList_AddIcon(g_hImgList, hIcon);
             g_iconIndexMap.emplace(full, idx);
-            logLoad(L"  -> loaded from file, index=" + std::to_wstring(idx));
+            //logLoad(L"  -> loaded from file, index=" + std::to_wstring(idx));
             UILogW(L"Loaded icon from file: " + full + L" index=" + std::to_wstring(idx));
 
-            // UI-level logging: dump image-list state after adding
-            LogImageListInfo(g_hImgList, L"AfterAdd(" + std::to_wstring(idx) + L")");
+            // UI-level logging suppressed (no-op)
+            // LogImageListInfo(g_hImgList, L"AfterAdd(" + std::to_wstring(idx) + L")");
 
             return idx;
         }
@@ -253,11 +265,11 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
         std::wstring resKey = L"resource:" + resName;
         if (g_iconIndexMap.find(resKey) != g_iconIndexMap.end()) {
             UILogW(L"Found cached resource key: " + resKey + L" idx=" + std::to_wstring(g_iconIndexMap[resKey]));
-            logLoad(L"  -> cached resource index: " + std::to_wstring(g_iconIndexMap[resKey]));
+            //logLoad(L"  -> cached resource index: " + std::to_wstring(g_iconIndexMap[resKey]));
             return g_iconIndexMap[resKey];
         }
 
-        logLoad(L"Trying resource name: " + resName);
+        //logLoad(L"Trying resource name: " + resName);
         UILogW(L"Trying resource: " + resName + L" (derived from " + fname + L")");
 
         HRSRC hResGroup = FindResourceW(hInst, resName.c_str(), RT_GROUP_ICON);
@@ -271,7 +283,7 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
         }
 
         if (hResGroup) {
-            logLoad(L"  -> found RT_GROUP_ICON resource: " + resName);
+            //logLoad(L"  -> found RT_GROUP_ICON resource: " + resName);
             HICON hIcon = (HICON)LoadImageW(hInst, resName.c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
             if (!hIcon) {
                 hIcon = (HICON)LoadImageW(hInst, (resName + L".ico").c_str(), IMAGE_ICON, 24, 24, LR_DEFAULTCOLOR | LR_SHARED);
@@ -279,23 +291,23 @@ static int LoadAndCacheIconForItem(const std::wstring& itemName, const std::wstr
             if (hIcon) {
                 int idx = ImageList_AddIcon(g_hImgList, hIcon);
                 g_iconIndexMap.emplace(resKey, idx);
-                logLoad(L"  -> loaded from resource, idx=" + std::to_wstring(idx));
+                //logLoad(L"  -> loaded from resource, idx=" + std::to_wstring(idx));
                 UILogW(L"Loaded icon from resource: " + resName + L" index=" + std::to_wstring(idx));
-                LogImageListInfo(g_hImgList, L"AfterAddResource(" + std::to_wstring(idx) + L")");
+                // LogImageListInfo(g_hImgList, L"AfterAddResource(" + std::to_wstring(idx) + L")");
                 return idx;
             }
             else {
-                logLoad(L"  -> LoadImageW on resource returned NULL");
+                //logLoad(L"  -> LoadImageW on resource returned NULL");
                 UILogW(L"LoadImageW returned NULL for resource: " + resName);
             }
         }
         else {
-            logLoad(L"  -> resource not found: " + resName);
+            //logLoad(L"  -> resource not found: " + resName);
             UILogW(L"Resource not found: " + resName);
         }
     }
 
-    logLoad(L"No icon found for: " + itemName);
+    //logLoad(L"No icon found for: " + itemName);
     UILogW(L"No icon found for: " + itemName);
     return -1;
 }
